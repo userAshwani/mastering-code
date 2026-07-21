@@ -1,55 +1,66 @@
-# Mastering Programming & Software Engineering 🚀
+# Mastering Programming & Software Engineering
 
-Welcome to the **Mastering Code** knowledge repository! This workspace is dedicated to structured, comprehensive, and visual technical documentation covering JavaScript, Python, Go, Rust, System Architecture, and modern software engineering practices.
+<div align="center">
+
+![Knowledge Base](https://img.shields.io/badge/Knowledge_Base-Engineering_Notes-111827?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)
+![JavaScript](https://img.shields.io/badge/JavaScript-Active-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827&labelColor=111827)
+![Portfolio](https://img.shields.io/badge/Portfolio-Ashwani_Tiwari-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827)
+
+**A visual, high-density technical notebook for frontend engineering, programming fundamentals, runtime behavior, and production-grade software concepts.**
+
+</div>
 
 ---
 
-## 📚 Multi-Language Table of Contents
+## 🚀 Workspace Command Center
+
+| Track | Status | Focus |
+| :--- | :---: | :--- |
+| **JavaScript** | `Active` | Language fundamentals, browser runtime, DOM, debugging, async flow |
+| **Python** | `Planned` | Core syntax, data structures, automation, backend workflows |
+| **Go / Systems** | `Planned` | Concurrency, services, memory-conscious systems |
+| **Node.js & Backend** | `Planned` | APIs, event loop, server architecture |
+| **Rust / Low-Level** | `Planned` | Ownership, memory safety, performance fundamentals |
+
+> [!NOTE]
+> Each note is designed as a **GitHub-readable visual dashboard**: badges, diagrams, comparison tables, callouts, and open-by-default code labs.
+
+---
+
+## 📚 Table of Contents
 
 ### 🟡 JavaScript
-| # | Topic / Title | Category | Note Link | Last Updated |
-| :---: | :--- | :--- | :--- | :---: |
-| **01** | **JavaScript Introduction & Fundamentals** | `JavaScript / 01-Fundamentals` | [📄 Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `2026-07-21` |
-| **02** | **Script Placement & Execution Strategies** | `JavaScript / 01-Fundamentals` | [📄 Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `2026-07-21` |
-| **03** | **Data Output & Console Debugging** | `JavaScript / 01-Fundamentals` | [📄 Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `2026-07-21` |
-| **04** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [📄 Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `2026-07-21` |
 
-### 🔵 Python *(Coming Soon)*
-| # | Topic / Title | Category | Note Link | Last Updated |
+| # | Topic | Category | Link | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| -- | *Python Fundamentals & Core Language* | `Python / 01-Fundamentals` | *Planned* | -- |
+| **01** | **JavaScript Introduction & Fundamentals** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `Live` |
+| **02** | **Script Placement & Execution Strategies** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `Live` |
+| **03** | **Data Output & Console Debugging** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `Live` |
+| **04** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
-### 🟣 Go / Systems *(Coming Soon)*
-| # | Topic / Title | Category | Note Link | Last Updated |
-| :---: | :--- | :--- | :--- | :---: |
-| -- | *Go Concurrency & Systems Programming* | `Go / 01-Fundamentals` | *Planned* | -- |
+### 🔵 Upcoming Tracks
 
-### 🟢 Node.js & Backend *(Coming Soon)*
-| # | Topic / Title | Category | Note Link | Last Updated |
-| :---: | :--- | :--- | :--- | :---: |
-| -- | *Node.js Event Loop & Backend Architecture* | `NodeJS / 01-Core` | *Planned* | -- |
-
-### 🔴 Rust / Low-Level *(Coming Soon)*
-| # | Topic / Title | Category | Note Link | Last Updated |
-| :---: | :--- | :--- | :--- | :---: |
-| -- | *Rust Memory Management & Ownership* | `Rust / 01-Fundamentals` | *Planned* | -- |
+| Track | First Module | Status |
+| :--- | :--- | :---: |
+| **Python** | `01-Fundamentals` | `Planned` |
+| **Go / Systems** | `01-Fundamentals` | `Planned` |
+| **Node.js & Backend** | `01-Core` | `Planned` |
+| **Rust / Low-Level** | `01-Fundamentals` | `Planned` |
 
 ---
 
-## 📁 Repository Structure
+## 🗂️ Repository Map
 
-```
+```text
 .
 ├── JavaScript/
 │   ├── 01-Fundamentals/
-│   │   ├── 01-JavaScript-Introduction.md       # Core introduction, engine execution, script tags & DOM basics
-│   │   ├── 02-Script-Placement-and-Execution.md # Inline vs external scripts, head vs body, async & defer loading
-│   │   └── 03-Data-Output-and-Debugging.md     # DOM mutation, console API, modal dialogs, document stream hazards
+│   │   ├── 01-JavaScript-Introduction.md
+│   │   ├── 02-Script-Placement-and-Execution.md
+│   │   └── 03-Data-Output-and-Debugging.md
 │   └── 02-DOM-Manipulation/
-│       └── 01-DOM-Element-Interaction.md       # DOM tree nodes, attribute manipulation, textContent vs innerHTML, styles
-├── Python/                                      # Multi-language support (Planned)
-├── Go/                                          # Systems programming (Planned)
-└── README.md                                    # Root repository index
+│       └── 01-DOM-Element-Interaction.md
+└── README.md
 ```
 
 ---
@@ -57,29 +68,29 @@ Welcome to the **Mastering Code** knowledge repository! This workspace is dedica
 ## 🎯 Learning Path Roadmap
 
 ### 🟡 JavaScript Master Class
-- [x] **01-Fundamentals**: Introduction, Script Placement, Execution Engines, Core Concepts
-- [ ] **02-Variables & Data Types**: `var` vs `let` vs `const`, Primitives vs Objects, Type Coercion
-- [ ] **03-Operators & Control Flow**: Logical operators, Conditional branching, Loops & Iteration
-- [ ] **04-Functions & Scope**: Function declarations, Arrow functions, Closures, Scope Chain
-- [x] **05-DOM Manipulation**: Selection, Modification, Event Handling, Event Delegation
-- [ ] **06-Asynchronous JS**: Callbacks, Promises, `async`/`await`, Event Loop & Microtask Queue
-- [ ] **07-OOP & Prototypes**: Prototype Chain, Classes, Inheritance, Encapsulation
 
-### 🔵 Python Learning Path *(Planned)*
-- [ ] **01-Fundamentals**: Syntax, Data Structures, Functional Concepts, Modules
-
-### 🟣 Go / Systems Learning Path *(Planned)*
-- [ ] **01-Fundamentals**: Structs, Interfaces, Goroutines, Channels, Memory Layout
+| Module | Coverage | Status |
+| :--- | :--- | :---: |
+| **01-Fundamentals** | Introduction, script loading, output channels, debugging | `Done` |
+| **02-Variables & Data Types** | `var`, `let`, `const`, primitives, objects, coercion | `Next` |
+| **03-Operators & Control Flow** | Conditions, loops, expressions, short-circuiting | `Planned` |
+| **04-Functions & Scope** | Declarations, arrows, closures, lexical scope | `Planned` |
+| **05-DOM Manipulation** | Selection, mutation, style control, events | `Started` |
+| **06-Asynchronous JS** | Promises, `async` / `await`, event loop, microtasks | `Planned` |
+| **07-OOP & Prototypes** | Prototype chain, classes, inheritance, encapsulation | `Planned` |
 
 ---
 
-## 🛠️ Formatting Standards & Conventions
+## ✨ Documentation Design System
 
-All technical notes in this repository adhere to the following principles:
-- **Visual Flowcharts & Diagrams:** Built with Mermaid.js & ASCII architecture graphs.
-- **Annotated Code Samples:** Fully functional, copy-paste ready, with step-by-step code comments.
-- **Key Takeaways & Pitfalls:** Standardized callout boxes (`> [!NOTE]`, `> [!WARNING]`, `> [!TIP]`, `> [!IMPORTANT]`).
-- **Authoritative References:** Direct citations to official specifications (MDN Web Docs, ECMA-262, V8 Dev, W3C).
+| Element | Standard |
+| :--- | :--- |
+| **Header** | Centered badge strip plus a one-line executive promise. |
+| **Dashboard** | Quick-scan table for the most important topic signals. |
+| **Diagrams** | Mermaid flowcharts for lifecycle, logic, architecture, and decision flow. |
+| **Code Labs** | `<details open>` blocks so code is visible by default and collapsible on demand. |
+| **Callouts** | GitHub alerts for notes, warnings, tips, and important production rules. |
+| **Footer** | Exact custom Ashwani Tiwari branding block with 120px logo. |
 
 ---
 
