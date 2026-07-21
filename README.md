@@ -10,7 +10,8 @@ Welcome to the **Mastering Code** knowledge repository! This workspace is dedica
 | # | Topic / Title | Category | Note Link | Last Updated |
 | :---: | :--- | :--- | :--- | :---: |
 | **01** | **JavaScript Introduction & Fundamentals** | `JavaScript / 01-Fundamentals` | [📄 Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `2026-07-21` |
-| **02** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [📄 Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `2026-07-21` |
+| **02** | **Script Placement & Execution Strategies** | `JavaScript / 01-Fundamentals` | [📄 Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `2026-07-21` |
+| **03** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [📄 Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `2026-07-21` |
 
 ### 🔵 Python *(Coming Soon)*
 | # | Topic / Title | Category | Note Link | Last Updated |
@@ -40,12 +41,13 @@ Welcome to the **Mastering Code** knowledge repository! This workspace is dedica
 .
 ├── JavaScript/
 │   ├── 01-Fundamentals/
-│   │   └── 01-JavaScript-Introduction.md   # Core introduction, engine execution, script tags & DOM basics
+│   │   ├── 01-JavaScript-Introduction.md       # Core introduction, engine execution, script tags & DOM basics
+│   │   └── 02-Script-Placement-and-Execution.md # Inline vs external scripts, head vs body, async & defer loading
 │   └── 02-DOM-Manipulation/
-│       └── 01-DOM-Element-Interaction.md   # DOM tree nodes, attribute manipulation, textContent vs innerHTML, styles
-├── Python/                                  # Multi-language support (Planned)
-├── Go/                                      # Systems programming (Planned)
-└── README.md                                # Root repository index
+│       └── 01-DOM-Element-Interaction.md       # DOM tree nodes, attribute manipulation, textContent vs innerHTML, styles
+├── Python/                                      # Multi-language support (Planned)
+├── Go/                                          # Systems programming (Planned)
+└── README.md                                    # Root repository index
 ```
 
 ---
