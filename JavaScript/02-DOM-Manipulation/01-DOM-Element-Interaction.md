@@ -44,7 +44,8 @@ flowchart TD
 * **`innerHTML`**: Parses string as HTML markup. Requires sanitization for user input.
 
 <details>
-<summary><strong>View Code Example: Content Modification</strong></summary>
+<summary><strong>💻 Click to Expand Code Example: Content Modification</strong></summary>
+<br>
 
 ```javascript
 const heading = document.getElementById("main-title");
@@ -66,7 +67,8 @@ container.innerHTML = "<p class='highlight'>Dynamic paragraph injected.</p>";
 * **Methods**: Explicit attribute methods (`setAttribute()`, `removeAttribute()`).
 
 <details>
-<summary><strong>View Code Example: Attribute Manipulation</strong></summary>
+<summary><strong>💻 Click to Expand Code Example: Attribute Manipulation</strong></summary>
+<br>
 
 ```javascript
 const imageElement = document.getElementById("status-icon");
@@ -90,7 +92,8 @@ submitBtn.removeAttribute("aria-hidden");
 * **Visibility Toggling**: Control rendering layout via `display = 'none'` or `display = 'block'`.
 
 <details>
-<summary><strong>View Code Example: Style & Visibility Toggling</strong></summary>
+<summary><strong>💻 Click to Expand Code Example: Style & Visibility Toggling</strong></summary>
+<br>
 
 ```javascript
 const banner = document.getElementById("notification-banner");

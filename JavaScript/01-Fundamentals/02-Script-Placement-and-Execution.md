@@ -46,7 +46,8 @@ flowchart TD
 * **Before `</body>`**: Executes after DOM nodes exist. Prevents `null` reference errors in legacy setups.
 
 <details>
-<summary><strong>View Code Example: Internal Script Placement</strong></summary>
+<summary><strong>💻 Click to Expand Code Example: Internal Script Placement</strong></summary>
+<br>
 
 ```html
 <!DOCTYPE html>
@@ -83,7 +84,8 @@ flowchart TD
 * **HTTP Cacheability**: Browser caches `.js` files, reducing bandwidth and load latency on subsequent visits.
 
 <details>
-<summary><strong>View Code Example: External Script References</strong></summary>
+<summary><strong>💻 Click to Expand Code Example: External Script References</strong></summary>
+<br>
 
 ```html
 <!-- Relative path reference -->
