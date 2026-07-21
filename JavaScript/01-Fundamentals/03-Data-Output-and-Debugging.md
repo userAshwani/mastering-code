@@ -45,8 +45,8 @@ flowchart TD
 
 ## 3. Implementations & Code Examples
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: DOM Element Mutation</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: DOM Element Mutation</strong></summary>
 <br>
 
 ```javascript
@@ -60,8 +60,8 @@ displayNode.innerHTML = "<strong>Status:</strong> <span style='color:green'>Succ
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Developer Console API</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Developer Console API</strong></summary>
 <br>
 
 ```javascript
@@ -86,8 +86,8 @@ console.timeEnd("ArrayProcessing"); // Logs elapsed time in ms
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Modal Dialog Output</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Modal Dialog Output</strong></summary>
 <br>
 
 ```javascript
@@ -102,8 +102,8 @@ if (userConfirmed) {
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Document Stream & Hardware Printing</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Document Stream & Hardware Printing</strong></summary>
 <br>
 
 ```javascript

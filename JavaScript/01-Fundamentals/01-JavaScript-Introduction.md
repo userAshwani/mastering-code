@@ -80,8 +80,8 @@ gantt
 
 ## 4. Practical Code Examples
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Dynamic HTML Content Modification</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Dynamic HTML Content Modification</strong></summary>
 <br>
 
 ```html
@@ -105,8 +105,8 @@ gantt
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Attribute Manipulation (Image Switcher)</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Attribute Manipulation (Image Switcher)</strong></summary>
 <br>
 
 ```html
@@ -131,8 +131,8 @@ gantt
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Modifying Styles & Controlling Visibility</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Modifying Styles & Controlling Visibility</strong></summary>
 <br>
 
 ```html
@@ -166,8 +166,8 @@ gantt
 ```
 </details>
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: External JavaScript Inclusion</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: External JavaScript Inclusion</strong></summary>
 <br>
 
 ```javascript

@@ -45,8 +45,8 @@ flowchart TD
 * **In `<head>`**: Executes before DOM body instantiation. Used for early configuration or polyfills.
 * **Before `</body>`**: Executes after DOM nodes exist. Prevents `null` reference errors in legacy setups.
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Internal Script Placement</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Internal Script Placement</strong></summary>
 <br>
 
 ```html
@@ -83,8 +83,8 @@ flowchart TD
 * **Separation of Concerns**: Cleanly isolates business logic from HTML markup.
 * **HTTP Cacheability**: Browser caches `.js` files, reducing bandwidth and load latency on subsequent visits.
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: External Script References</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: External Script References</strong></summary>
 <br>
 
 ```html

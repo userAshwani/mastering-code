@@ -43,8 +43,8 @@ flowchart TD
 * **`textContent`**: Replaces plain node text safely. Fast, prevents XSS.
 * **`innerHTML`**: Parses string as HTML markup. Requires sanitization for user input.
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Content Modification</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Content Modification</strong></summary>
 <br>
 
 ```javascript
@@ -66,8 +66,8 @@ container.innerHTML = "<p class='highlight'>Dynamic paragraph injected.</p>";
 * **Properties**: Direct node property assignments (`element.src = '...'`).
 * **Methods**: Explicit attribute methods (`setAttribute()`, `removeAttribute()`).
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Attribute Manipulation</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Attribute Manipulation</strong></summary>
 <br>
 
 ```javascript
@@ -91,8 +91,8 @@ submitBtn.removeAttribute("aria-hidden");
 * **Inline Styling**: Assign via `element.style.propertyName` (camelCase).
 * **Visibility Toggling**: Control rendering layout via `display = 'none'` or `display = 'block'`.
 
-<details>
-<summary><strong>💻 Click to Expand Code Example: Style & Visibility Toggling</strong></summary>
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example: Style & Visibility Toggling</strong></summary>
 <br>
 
 ```javascript
