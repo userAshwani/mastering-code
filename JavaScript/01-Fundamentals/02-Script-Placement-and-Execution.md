@@ -20,18 +20,19 @@ The browser's HTML parser processes documents sequentially from top to bottom. W
 
 ```mermaid
 flowchart TD
-    subgraph Synchronous Script in <head> (Parser Blocking)
-        A1[HTML Parsing Starts] --> B1[Encounter <script src>]
+    subgraph SYNC ["Synchronous Script in head (Parser Blocking)"]
+        A1[HTML Parsing Starts] --> B1["Encounter script src"]
         B1 -->|Halt HTML Parser| C1[Fetch & Execute JS Script]
         C1 -->|Resume Parser| D1[Parse Remaining HTML]
         D1 --> E1[DOM Complete & Rendered]
     end
 
-    subgraph Deferred Script in <head> (Non-Blocking)
-        A2[HTML Parsing Starts] --> B2[Encounter <script defer src>]
+    subgraph DEFER ["Deferred Script in head (Non-Blocking)"]
+        A2[HTML Parsing Starts] --> B2["Encounter script defer src"]
         B2 -->|Parallel Network Fetch| C2[Fetch JS in Background]
         A2 -->|Uninterrupted Parsing| D2[DOM Parsing Complete]
-        C2 & D2 --> E2[Execute JS in Order]
+        C2 --> E2[Execute JS in Order]
+        D2 --> E2[Execute JS in Order]
         E2 --> F2[DOMReady Event Triggered]
     end
 ```
@@ -107,18 +108,18 @@ gantt
     dateFormat X
     axisFormat %s
 
-    section Default (<script>)
+    section Default (script)
     HTML Parsing         :active, p1, 0, 30
     Download & Exec JS   :crit, e1, 30, 70
     Resume HTML Parsing  :active, p2, 70, 100
 
-    section Async (<script async>)
+    section Async (script async)
     HTML Parsing         :active, ap1, 0, 40
     Download JS (Bg)     :done, ad1, 0, 40
     Pause & Exec JS      :crit, ae1, 40, 60
     Resume HTML Parsing  :active, ap2, 60, 100
 
-    section Defer (<script defer>)
+    section Defer (script defer)
     HTML Parsing (Full)  :active, dp1, 0, 80
     Download JS (Bg)     :done, dd1, 0, 50
     Execute JS           :crit, de1, 80, 100

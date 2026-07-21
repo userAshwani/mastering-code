@@ -48,16 +48,17 @@ The browser parses HTML and CSS into trees (DOM and CSSOM). When a JavaScript sc
 
 ```mermaid
 flowchart TD
-    subgraph Browser Engine
+    subgraph BE ["Browser Engine"]
         A[HTML Document] -->|HTML Parser| B[DOM Tree]
         C[CSS Stylesheet] -->|CSS Parser| D[CSSOM Tree]
         
-        B & D --> E[Render Tree]
+        B --> E[Render Tree]
+        D --> E[Render Tree]
         E --> F[Layout & Paint Phase]
         F --> G[Displayed Page]
     end
 
-    subgraph JS Engine Pipeline (V8 / SpiderMonkey)
+    subgraph JSEP ["JS Engine Pipeline (V8 / SpiderMonkey)"]
         H[JavaScript Source Code] -->|Parser| I[Abstract Syntax Tree - AST]
         I -->|Interpreter / Ignition| J[Bytecode Execution]
         J -->|JIT Compiler / TurboFan| K[Optimized Machine Code]
@@ -71,7 +72,7 @@ flowchart TD
 
 ### 3.2 Script Loading Strategies Comparison
 
-Where and how `<script>` tags are placed in HTML drastically impacts webpage performance and load times.
+Where and how script tags are placed in HTML drastically impacts webpage performance and load times.
 
 ```mermaid
 gantt
@@ -79,18 +80,18 @@ gantt
     dateFormat  X
     axisFormat %s
 
-    section Default (<script src="...">)
+    section Default (script src)
     HTML Parsing         :active, p1, 0, 30
     Fetch Script         :crit, s1, 30, 60
     Execute Script       :crit, e1, 60, 80
     Resume HTML Parsing  :active, p2, 80, 100
 
-    section Async (<script async src="...">)
+    section Async (script async src)
     HTML Parsing & Fetch :active, ap1, 0, 50
     Pause & Execute JS   :crit, ae1, 50, 70
     Resume HTML Parsing  :active, ap2, 70, 100
 
-    section Defer (<script defer src="...">)
+    section Defer (script defer src)
     HTML Parsing & Fetch :active, dp1, 0, 70
     Execute JS after DOM :crit, de1, 70, 90
     DOM Complete         :done, dc, 90, 100

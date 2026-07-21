@@ -20,17 +20,20 @@ The diagram below illustrates how JavaScript DOM operations interact with the br
 
 ```mermaid
 flowchart TD
-    A[User Event / Script Action] -->|Triggers| B[JavaScript Event Handler]
-    B -->|Query / Select Node| C[document.getElementById / querySelector]
+    A["User Event / Script Action"] -->|Triggers| B[JavaScript Event Handler]
+    B -->|Query or Select Node| C["document.getElementById / querySelector"]
     C -->|Obtain Reference| D[DOM Element Node]
     
-    D -->|Modify Content| E1[element.textContent / innerHTML]
-    D -->|Modify Attribute| E2[element.setAttribute / src / href]
-    D -->|Modify Style| E3[element.style.display / color]
+    D -->|Modify Content| E1["element.textContent / innerHTML"]
+    D -->|Modify Attribute| E2["element.setAttribute / src / href"]
+    D -->|Modify Style| E3["element.style.display / color"]
     
-    E1 & E2 & E3 --> F[DOM Tree Mutation]
+    E1 --> F[DOM Tree Mutation]
+    E2 --> F[DOM Tree Mutation]
+    E3 --> F[DOM Tree Mutation]
+    
     F -->|Recalculate Style| G[Render Tree Update]
-    G -->|Layout Phase| H[Reflow & Repaint]
+    G -->|Layout Phase| H["Reflow & Repaint"]
     H --> I[Updated UI Screen Rendering]
 ```
 

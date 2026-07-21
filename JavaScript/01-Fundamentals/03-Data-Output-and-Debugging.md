@@ -23,21 +23,22 @@ flowchart TD
     A[JavaScript Execution Environment] --> B{Choose Output Channel}
     
     B -->|DOM Tree Mutation| C[document.getElementById]
-    C --> C1[element.innerHTML / textContent]
-    C1 --> D1[Browser Render Engine / UI]
+    C --> C1["element.innerHTML / textContent"]
+    C1 --> D1["Browser Render Engine / UI"]
     
     B -->|Developer Inspection| E[Console API]
-    E --> E1[console.log / table / error / time]
+    E --> E1["console.log / table / error / time"]
     E1 --> D2[Browser DevTools Window]
     
     B -->|User Dialog Modals| F[Window BOM API]
-    F --> F1[window.alert / confirm / prompt]
-    F1 --> D3[Blocking OS/Browser Dialog]
+    F --> F1["window.alert / confirm / prompt"]
+    F1 --> D3["Blocking OS / Browser Dialog"]
     
-    B -->|Document Stream / Hardware| G[Document & Printer API]
+    B -->|Document Stream / Hardware| G["Document & Printer API"]
     G --> G1[document.write]
     G --> G2[window.print]
-    G1 & G2 --> D4[HTML Output Stream / Hardware Print Buffer]
+    G1 --> D4["HTML Output Stream / Hardware Print Buffer"]
+    G2 --> D4["HTML Output Stream / Hardware Print Buffer"]
 ```
 
 ---
