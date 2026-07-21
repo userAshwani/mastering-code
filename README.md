@@ -37,7 +37,8 @@
 | **02** | **Script Placement & Execution Strategies** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `Live` |
 | **03** | **Data Output & Console Debugging** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `Live` |
 | **04** | **JavaScript Syntax** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/04-JavaScript-Syntax.md) | `Live` |
-| **05** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| **05** | **JavaScript Statements** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/05-JavaScript-Statements.md) | `Live` |
+| **06** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
 ### 🔵 Upcoming Tracks
 
@@ -59,7 +60,8 @@
 │   │   ├── 01-JavaScript-Introduction.md
 │   │   ├── 02-Script-Placement-and-Execution.md
 │   │   ├── 03-Data-Output-and-Debugging.md
-│   │   └── 04-JavaScript-Syntax.md
+│   │   ├── 04-JavaScript-Syntax.md
+│   │   └── 05-JavaScript-Statements.md
 │   └── 02-DOM-Manipulation/
 │       └── 01-DOM-Element-Interaction.md
 └── README.md
@@ -73,7 +75,7 @@
 
 | Module | Coverage | Status |
 | :--- | :--- | :---: |
-| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax | `Done` |
+| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements | `Done` |
 | **02-Variables & Data Types** | `var`, `let`, `const`, primitives, objects, coercion | `Next` |
 | **03-Operators & Control Flow** | Conditions, loops, expressions, short-circuiting | `Planned` |
 | **04-Functions & Scope** | Declarations, arrows, closures, lexical scope | `Planned` |
