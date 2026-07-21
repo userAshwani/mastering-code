@@ -2,21 +2,20 @@
 
 > **Classification:** `JavaScript / 01-Fundamentals`  
 > **Primary Reference:** [HTML Living Standard - The Script Element](https://html.spec.whatwg.org/multipage/scripting.html#the-script-element) & [MDN Web Docs - <script>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)  
-> **Target Audience:** Web Developers & Frontend Engineers  
 
 ---
 
-## 1. Core Concept
+## 1. Executive Summary
 
-The `<script>` tag is the standard HTML element used to embed or reference executable JavaScript code within a Web document. How and where a script is loaded—whether placed inline, internally inside `<head>` or `<body>`, or loaded externally via `src` attributes—determines browser HTML parsing behavior, network fetch priorities, DOM availability, and page rendering speed.
-
-Modern web performance architecture favors **external script modularization** combined with non-blocking attribute directives (`defer` and `async`) to decouple script execution from document parsing.
+* **`<script>` Tag**: Primary element used to embed or reference executable JavaScript code within HTML documents.
+* **Placement Impact**: Location (`<head>` vs `<body>`) and attributes (`async`, `defer`) dictate HTML parsing, network fetch priority, and DOM availability.
+* **Modern Standard**: Prefer **external scripts in `<head>` with `defer`** to decouple script execution from document parsing.
 
 ---
 
-## 2. Script Execution Flow & Parsing Behavior
+## 2. Parsing & Execution Lifecycle
 
-The browser's HTML parser processes documents sequentially from top to bottom. When a standard synchronous `<script>` tag is encountered, the parser halts HTML rendering until the script is downloaded, compiled, and executed.
+Synchronous scripts halt HTML rendering while downloading and executing. Deferred scripts fetch in parallel and execute sequentially after DOM parsing completes.
 
 ```mermaid
 flowchart TD
@@ -39,11 +38,15 @@ flowchart TD
 
 ---
 
-## 3. Script Inclusion Methods & Placement Options
+## 3. Inclusion Methods & Placement
 
-### 3.1 Internal Script Placement (`<head>` vs `<body>`)
+### 3.1 Internal Script Placement
 
-JavaScript can be embedded directly within HTML using internal `<script>` blocks. Placement impacts element availability:
+* **In `<head>`**: Executes before DOM body instantiation. Used for early configuration or polyfills.
+* **Before `</body>`**: Executes after DOM nodes exist. Prevents `null` reference errors in legacy setups.
+
+<details>
+<summary><strong>View Code Example: Internal Script Placement</strong></summary>
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +57,6 @@ JavaScript can be embedded directly within HTML using internal `<script>` blocks
 
     <!-- Script in <head>: Runs BEFORE DOM body is constructed -->
     <script>
-        // Utility functions or early configurations
         function getAppConfig() {
             return { version: "1.0.0", env: "production" };
         }
@@ -66,41 +68,44 @@ JavaScript can be embedded directly within HTML using internal `<script>` blocks
 
     <!-- Script at end of <body>: Runs AFTER DOM nodes are instantiated -->
     <script>
-        // DOM nodes are guaranteed to exist here without throwing null errors
         document.getElementById("page-heading").textContent = "Dashboard Initialized";
     </script>
 </body>
 </html>
 ```
+</details>
 
 ---
 
-### 3.2 External Script References (`src` Attribute)
+### 3.2 External Script References
 
-Linking external JavaScript files cleanly isolates logic from document structure, improves code maintainability, and enables browser HTTP caching.
+* **Separation of Concerns**: Cleanly isolates business logic from HTML markup.
+* **HTTP Cacheability**: Browser caches `.js` files, reducing bandwidth and load latency on subsequent visits.
+
+<details>
+<summary><strong>View Code Example: External Script References</strong></summary>
 
 ```html
-<!-- Relative path reference (same directory) -->
+<!-- Relative path reference -->
 <script src="app.js" defer></script>
 
 <!-- Subdirectory reference -->
 <script src="assets/js/utils.js" defer></script>
 
-<!-- Absolute URL reference (CDN / Remote Host) -->
+<!-- Absolute CDN reference -->
 <script src="https://cdn.example.com/libs/chart.min.js" defer></script>
 ```
+</details>
 
 ---
 
-### 3.3 Asynchronous Loading: `async` vs `defer`
+### 3.3 Loading Attributes Matrix (`async` vs `defer`)
 
-Attributes applied to external scripts alter network fetch and execution timing relative to HTML document parsing:
-
-| Attribute | Download Behavior | Execution Timing | Execution Order | Recommended Use Case |
+| Attribute | Download Behavior | Execution Timing | Execution Order | Primary Use Case |
 | :--- | :--- | :--- | :--- | :--- |
-| **None (Default)** | Blocks HTML Parser | Immediately after download completes | Sequential (top-to-bottom) | Legacy scripts or essential polyfills |
-| `defer` | Parallel with HTML Parser | After HTML parsing completes, before `DOMContentLoaded` | Preserves specified document order | Application bundles, main app logic, DOM modifiers |
-| `async` | Parallel with HTML Parser | Immediately after download completes (pauses parser) | Independent (executes as soon as downloaded) | Analytics, ad scripts, independent tracking tools |
+| **None (Default)** | Blocks HTML Parser | Immediately after download | Sequential (Top-to-bottom) | Legacy scripts / critical polyfills |
+| `defer` | Parallel with Parser | After DOM parsing finishes | Preserved document order | Main app logic, DOM modifiers |
+| `async` | Parallel with Parser | Immediately when downloaded | Independent (First-come, first-serve) | Analytics, ads, tracking pixels |
 
 ```mermaid
 gantt
@@ -127,20 +132,20 @@ gantt
 
 ---
 
-## 4. Key Takeaways & Common Pitfalls
+## 4. Key Takeaways & Pitfalls
 
 > [!NOTE]
-> **HTTP Caching Advantage:** External `.js` files are cached locally by web browsers after the initial request. Subsequent page navigation loads JavaScript directly from browser cache, dramatically reducing HTTP overhead and page load latency.
+> **HTTP Caching**: External scripts are cached by browser HTTP policies. Subsequent page visits load scripts instantly from browser disk cache.
 
 > [!WARNING]
-> **Avoid `async` for Dependent Code:** `async` scripts execute non-deterministically as soon as they finish downloading. If `main.js` depends on a library loaded via `async`, `main.js` will throw `ReferenceError` if it executes before the library arrives. Use `defer` for script dependencies.
+> **Avoid `async` for Dependencies**: `async` scripts execute out of order. If `app.js` relies on `library.js`, loading via `async` risks throwing `Uncaught ReferenceError`.
 
 > [!TIP]
-> **Modern Performance Best Practice:** Place external scripts in the `<head>` tag accompanied by the `defer` attribute. This allows the browser scanner to initiate script downloads in parallel during early HTML parsing without blocking DOM tree construction.
+> **Modern Best Practice**: Place external scripts in `<head>` with `defer`. Enables early parallel downloads while guaranteeing non-blocking DOM parsing.
 
 ---
 
-## 5. Technical References & External Reading
+## 5. Technical References
 
 * 📖 [MDN Web Docs - The Script Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 * 📜 [WHATWG HTML Specification - Scripting](https://html.spec.whatwg.org/multipage/scripting.html)

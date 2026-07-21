@@ -2,21 +2,18 @@
 
 > **Classification:** `JavaScript / 02-DOM-Manipulation`  
 > **Primary Reference:** [MDN Web Docs - DOM API](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) & [WHATWG DOM Living Standard](https://dom.spec.whatwg.org/)  
-> **Target Audience:** Frontend Developers & Software Engineers  
 
 ---
 
-## 1. Core Concept
+## 1. Executive Summary
 
-The **Document Object Model (DOM)** is a programming interface provided by web browsers that represents an HTML document as a structured tree of objects (nodes). JavaScript utilizes the DOM API to programmatically select, read, modify, and delete HTML elements, attributes, and styles at runtime without requiring a full page refresh.
-
-Through DOM manipulation, web applications achieve client-side reactivity by intercepting user events, modifying document tree nodes, and triggering targeted layout updates (reflow and repaint) within the browser rendering pipeline.
+* **Document Object Model (DOM)**: Object-tree representation of an HTML document provided by web browsers.
+* **Dynamic Control**: JavaScript DOM API selects, reads, modifies, and deletes HTML elements and styles dynamically.
+* **Client-Side Reactivity**: Event handlers intercept user actions, trigger DOM mutations, and invoke browser reflow/repaint operations.
 
 ---
 
 ## 2. Browser DOM Execution Lifecycle
-
-The diagram below illustrates how JavaScript DOM operations interact with the browser event loop and rendering pipeline.
 
 ```mermaid
 flowchart TD
@@ -39,36 +36,42 @@ flowchart TD
 
 ---
 
-## 3. Core DOM Manipulation Techniques
+## 3. Core Manipulation Techniques
 
 ### 3.1 Content Modification: `textContent` vs `innerHTML`
 
-* **`textContent`**: Replaces node text content safely without parsing HTML tags. Fast and secure against XSS.
-* **`innerHTML`**: Parses string input as HTML markup, rendering nested child nodes. Must be sanitized when accepting user input.
+* **`textContent`**: Replaces plain node text safely. Fast, prevents XSS.
+* **`innerHTML`**: Parses string as HTML markup. Requires sanitization for user input.
+
+<details>
+<summary><strong>View Code Example: Content Modification</strong></summary>
 
 ```javascript
-// Selecting target DOM node
 const heading = document.getElementById("main-title");
 
 // Safe text replacement (Recommended for plain text)
 heading.textContent = "Updated Title via DOM API";
 
-// HTML markup insertion
+// Dynamic HTML injection
 const container = document.getElementById("content-box");
 container.innerHTML = "<p class='highlight'>Dynamic paragraph injected.</p>";
 ```
+</details>
 
 ---
 
 ### 3.2 HTML Attribute Manipulation
 
-HTML element attributes (`src`, `href`, `disabled`, `class`, custom `data-*` attributes) can be modified directly via node properties or `setAttribute()`.
+* **Properties**: Direct node property assignments (`element.src = '...'`).
+* **Methods**: Explicit attribute methods (`setAttribute()`, `removeAttribute()`).
+
+<details>
+<summary><strong>View Code Example: Attribute Manipulation</strong></summary>
 
 ```javascript
-// Target image element
 const imageElement = document.getElementById("status-icon");
 
-// Direct property modification
+// Direct property assignment
 imageElement.src = "assets/active-status.png";
 imageElement.alt = "System Active";
 
@@ -77,52 +80,57 @@ const submitBtn = document.getElementById("btn-submit");
 submitBtn.setAttribute("disabled", "true");
 submitBtn.removeAttribute("aria-hidden");
 ```
+</details>
 
 ---
 
 ### 3.3 Dynamic Style & Visibility Control
 
-JavaScript can alter inline CSS properties directly through `element.style` or toggle CSS classes for maintainable styling.
+* **Inline Styling**: Assign via `element.style.propertyName` (camelCase).
+* **Visibility Toggling**: Control rendering layout via `display = 'none'` or `display = 'block'`.
+
+<details>
+<summary><strong>View Code Example: Style & Visibility Toggling</strong></summary>
 
 ```javascript
 const banner = document.getElementById("notification-banner");
 
-// Direct inline CSS property assignment (camelCase formatting)
+// Inline CSS assignment
 banner.style.backgroundColor = "#2e7d32";
 banner.style.color = "#ffffff";
 banner.style.padding = "12px 20px";
 
 // Visibility Toggling
 function hideElement(node) {
-    node.style.display = "none"; // Hides node and removes it from page layout
+    node.style.display = "none"; // Hides node and removes from layout
 }
 
 function showElement(node) {
-    node.style.display = "block"; // Restores node rendering in page layout
+    node.style.display = "block"; // Restores node rendering layout
 }
 ```
+</details>
 
 ---
 
-## 4. Key Takeaways & Common Pitfalls
+## 4. Key Takeaways & Pitfalls
 
 > [!NOTE]
-> **Prefer Class Toggling Over Inline Styles:** Manipulating `element.classList.add()` or `element.classList.toggle()` keeps visual styling cleanly separated inside CSS files rather than spreading inline styles across JavaScript code.
+> **Class Toggling Over Inline Styles**: Use `element.classList.add()` or `.toggle()` to keep visual styles inside CSS files.
 
 > [!WARNING]
-> **Cross-Site Scripting (XSS) Vulnerability:** Never assign unsanitized user input directly to `innerHTML`. Malicious script tags can execute arbitrarily. Always use `textContent` or sanitize strings prior to HTML injection.
+> **XSS Vulnerability**: Avoid assigning unsanitized user strings to `innerHTML`. Use `textContent` for security.
 
 > [!TIP]
-> **Batch DOM Updates to Avoid Layout Thrashing:** Frequent DOM reads/writes in succession trigger repeated browser reflows. Batch style reads together before executing writes, or use `DocumentFragment` when inserting multiple elements.
+> **Batch DOM Updates**: Minimize layout thrashing by grouping DOM reads and writes separately or using `DocumentFragment`.
 
 ---
 
-## 5. Technical References & External Reading
+## 5. Technical References
 
 * 📖 [MDN Web Docs - Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 * 📜 [WHATWG DOM Living Standard Specification](https://dom.spec.whatwg.org/)
-* 🔒 [OWASP - Cross-Site Scripting (XSS) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-* 🛠️ [MDN Web Docs - Node.textContent Property](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+* 🔒 [OWASP - Cross-Site Scripting (XSS) Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 ---
 

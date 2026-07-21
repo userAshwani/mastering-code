@@ -2,21 +2,21 @@
 
 > **Classification:** `JavaScript / 01-Fundamentals`  
 > **Primary Reference:** [Console API Standard](https://console.spec.whatwg.org/) & [MDN Web Docs - Working with Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)  
-> **Target Audience:** Frontend Developers & Software Engineers  
 
 ---
 
-## 1. Core Concept
+## 1. Executive Summary
 
-JavaScript lacks native, hardware-level output statements (like `print` in Python or `std::cout` in C++). Instead, it relies on environment-provided APIs—the **Browser Object Model (BOM)** and **Document Object Model (DOM)**—to communicate data to users and developers.
-
-Data output in JavaScript spans four primary channels: DOM Tree element mutation, Browser DevTools debugging streams, blocking modal dialogs, and hardware print streams.
+* **No Native Hardware I/O**: JavaScript lacks built-in statements like `print` or `std::cout`. Output requires environment APIs.
+* **4 Output Channels**:
+  1. **DOM Tree**: `innerHTML` / `textContent` (Dynamic UI update).
+  2. **Console API**: `console.log` / `table` / `error` (DevTools debugging).
+  3. **Window BOM**: `window.alert` / `confirm` (Blocking user modals).
+  4. **Document & Hardware**: `document.write` / `window.print` (Stream / Hardware buffer).
 
 ---
 
-## 2. Data Output Pathways Architecture
-
-The flowchart below maps how JavaScript expressions direct data output across different browser subsystem targets.
+## 2. Output Pathways Architecture
 
 ```mermaid
 flowchart TD
@@ -43,28 +43,24 @@ flowchart TD
 
 ---
 
-## 3. Output Mechanisms & Implementations
+## 3. Implementations & Code Examples
 
-### 3.1 Writing to DOM Elements (`innerHTML` vs `textContent`)
-
-Mutating DOM node properties is the primary mechanism for rendering dynamic content to end users.
+<details>
+<summary><strong>View Code Example: DOM Element Mutation</strong></summary>
 
 ```javascript
-// Target existing HTML element node
 const displayNode = document.getElementById("output-box");
 
-// Safe text assignment (Escapes HTML characters)
+// Safe text assignment (Escapes HTML strings)
 displayNode.textContent = "Calculation Result: " + (45 + 55);
 
-// HTML markup rendering
+// Dynamic HTML element rendering
 displayNode.innerHTML = "<strong>Status:</strong> <span style='color:green'>Success</span>";
 ```
+</details>
 
----
-
-### 3.2 Developer Console API (`console` Object)
-
-The `console` object sends diagnostic messages directly to browser Developer Tools. It does not affect page layout.
+<details>
+<summary><strong>View Code Example: Developer Console API</strong></summary>
 
 ```javascript
 // Basic logging
@@ -86,12 +82,10 @@ console.time("ArrayProcessing");
 for (let i = 0; i < 1000000; i++) { /* compute */ }
 console.timeEnd("ArrayProcessing"); // Logs elapsed time in ms
 ```
+</details>
 
----
-
-### 3.3 Modal Dialog Output (`window.alert`)
-
-Modal alerts display blocking dialog boxes requiring explicit user acknowledgment before script execution resumes.
+<details>
+<summary><strong>View Code Example: Modal Dialog Output</strong></summary>
 
 ```javascript
 // Display alert modal (window prefix is optional)
@@ -103,12 +97,10 @@ if (userConfirmed) {
     console.log("Record deleted");
 }
 ```
+</details>
 
----
-
-### 3.4 Document Stream Output & Hardware Printing (`document.write` & `window.print`)
-
-Direct document writing modifies the raw HTML output stream, while `window.print()` triggers the browser's native print dialog.
+<details>
+<summary><strong>View Code Example: Document Stream & Hardware Printing</strong></summary>
 
 ```javascript
 // Triggers browser print dialog
@@ -119,28 +111,28 @@ function printReceipt() {
 // WARNING: Testing only - Overwrites document if called after page load
 document.write("Direct document stream output.");
 ```
+</details>
 
 ---
 
-## 4. Key Takeaways & Common Pitfalls
+## 4. Key Takeaways & Pitfalls
 
 > [!WARNING]
-> **`document.write()` Page Erasure:** Calling `document.write()` after an HTML document has finished parsing automatically calls `document.open()`, which **completely wipes the entire existing HTML document**. Never use `document.write()` in modern production code.
+> **`document.write()` Page Erasure**: Calling `document.write()` after initial page load wipes the entire document. Do not use in production.
 
 > [!NOTE]
-> **Blocking Main Thread with `window.alert()`:** Browser alert dialogs block the main JavaScript execution thread, freezing UI updates, timers, and event listeners until closed. Use custom HTML/CSS modal components instead for production applications.
+> **Blocking Thread via `window.alert()`**: Modal alerts freeze main-thread execution and UI events until dismissed.
 
 > [!TIP]
-> **Strip Console Statements in Production Builds:** While `console.log()` is essential during development, excessive logging in production can leak sensitive data and degrade performance. Use build tools (Terser, Babel plugins) to automatically strip `console` statements during production bundling.
+> **Production Bundling**: Strip `console.log()` statements during production build bundling (via Terser / Babel plugins) to prevent data leaks.
 
 ---
 
-## 5. Technical References & External Reading
+## 5. Technical References
 
 * 📖 [Console API Living Standard](https://console.spec.whatwg.org/)
 * 📜 [MDN Web Docs - Console API Methods](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 * 🌐 [WHATWG HTML Living Standard - Document Writing](https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#document.write())
-* 🛠️ [MDN Web Docs - Window.print()](https://developer.mozilla.org/en-US/docs/Web/API/Window/print)
 
 ---
 
