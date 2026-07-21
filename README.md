@@ -42,7 +42,8 @@
 | **07** | **JavaScript Variables** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/07-JavaScript-Variables.md) | `Live` |
 | **08** | **JavaScript `let`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/08-JavaScript-Let.md) | `Live` |
 | **09** | **JavaScript `const`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/09-JavaScript-Const.md) | `Live` |
-| **10** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| **10** | **JavaScript Data Types** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/10-JavaScript-Data-Types.md) | `Live` |
+| **11** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
 ### 🔵 Upcoming Tracks
 
@@ -69,7 +70,8 @@
 │   │   ├── 06-JavaScript-Comments.md
 │   │   ├── 07-JavaScript-Variables.md
 │   │   ├── 08-JavaScript-Let.md
-│   │   └── 09-JavaScript-Const.md
+│   │   ├── 09-JavaScript-Const.md
+│   │   └── 10-JavaScript-Data-Types.md
 │   └── 02-DOM-Manipulation/
 │       └── 01-DOM-Element-Interaction.md
 └── README.md
@@ -83,7 +85,7 @@
 
 | Module | Coverage | Status |
 | :--- | :--- | :---: |
-| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements, comments, variables, `let`, `const` | `Done` |
+| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements, comments, variables, `let`, `const`, data types | `Done` |
 | **02-Variables & Data Types** | `var`, `let`, `const`, primitives, objects, coercion | `Next` |
 | **03-Operators & Control Flow** | Conditions, loops, expressions, short-circuiting | `Planned` |
 | **04-Functions & Scope** | Declarations, arrows, closures, lexical scope | `Planned` |
