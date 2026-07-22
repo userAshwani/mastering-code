@@ -33,9 +33,9 @@
 
 | # | Topic | Category | Link | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **01** | **JavaScript Introduction & Fundamentals** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `Live` |
-| **02** | **Script Placement & Execution Strategies** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `Live` |
-| **03** | **Data Output & Console Debugging** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `Live` |
+| **01** | **JavaScript Introduction** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `Live` |
+| **02** | **JavaScript Where To** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `Live` |
+| **03** | **JavaScript Output** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `Live` |
 | **04** | **JavaScript Syntax** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/04-JavaScript-Syntax.md) | `Live` |
 | **05** | **JavaScript Statements** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/05-JavaScript-Statements.md) | `Live` |
 | **06** | **JavaScript Comments** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/06-JavaScript-Comments.md) | `Live` |
@@ -43,7 +43,7 @@
 | **08** | **JavaScript `let`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/08-JavaScript-Let.md) | `Live` |
 | **09** | **JavaScript `const`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/09-JavaScript-Const.md) | `Live` |
 | **10** | **JavaScript Data Types** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/10-JavaScript-Data-Types.md) | `Live` |
-| **11** | **DOM Manipulation & Element Interaction** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| **11** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
 ### 🔵 Upcoming Tracks
 

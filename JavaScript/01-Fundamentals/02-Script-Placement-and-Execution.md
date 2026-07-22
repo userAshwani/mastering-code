@@ -1,172 +1,70 @@
-# Script Placement & Execution Strategies
+# JavaScript Where To
 
 <div align="center">
 
-![Script Loading](https://img.shields.io/badge/HTML-Script_Loading-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=111827)
-![Performance](https://img.shields.io/badge/Performance-Parser_Control-22C55E?style=for-the-badge&logo=lighthouse&logoColor=white&labelColor=111827)
-![Best Practice](https://img.shields.io/badge/Best_Practice-Defer-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white&labelColor=111827)
+![JavaScript](https://img.shields.io/badge/JavaScript-Where_To-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827&labelColor=111827)
+![Beginner Friendly](https://img.shields.io/badge/Style-Short_Notes-0EA5E9?style=for-the-badge&logo=readme&logoColor=white&labelColor=111827)
+![GitHub Ready](https://img.shields.io/badge/Format-GitHub_Ready-22C55E?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)
 
-**Script placement decides when JavaScript interrupts parsing, when the DOM becomes available, and how fast the user sees a usable page.**
+**JavaScript can be placed inside HTML pages or loaded from external files.**
 
 </div>
 
 ---
 
-## ⚡ Execution Dashboard
+## Quick Summary
 
-| Decision | Recommended Default | Why It Wins |
-| :--- | :--- | :--- |
-| **Where to place app scripts** | `<head>` with `defer` | Starts download early and waits for DOM parsing before execution. |
-| **When to use inline scripts** | Small boot config only | Keeps markup clean and avoids scattered behavior. |
-| **When to use `async`** | Independent third-party-style scripts | Runs as soon as downloaded, without preserving order. |
-| **When to avoid default scripts** | Most modern app code | Default scripts block the parser. |
-
-> [!IMPORTANT]
-> The browser parser is a production resource. Every blocking script makes the page wait before it can finish building the DOM.
+- JavaScript code is placed inside `<script>` tags.
+- Scripts can be placed in the `<head>` or `<body>`.
+- External scripts are stored in separate `.js` files.
+- External files help reuse the same code on many pages.
 
 ---
 
-## 🧠 Parser Mental Model
+## Key Points
 
-```mermaid
-flowchart TD
-    A[HTML Parser Starts] --> B{Script Encountered}
-    B -->|Default| C[Pause HTML Parsing]
-    C --> D[Download Script]
-    D --> E[Execute Immediately]
-    E --> F[Resume HTML Parsing]
-
-    B -->|defer| G[Download in Parallel]
-    G --> H[Wait for DOM Parsed]
-    H --> I[Execute in Document Order]
-
-    B -->|async| J[Download in Parallel]
-    J --> K[Execute as Soon as Ready]
-    K --> L[Order Not Guaranteed]
-```
-
----
-
-## 🧩 Placement Patterns
-
-| Pattern | Use Case | Tradeoff |
-| :--- | :--- | :--- |
-| **Inline in `<head>`** | Early constants, feature flags, tiny setup | Can run before page elements exist. |
-| **Inline before `</body>`** | Legacy DOM access | Works, but mixes behavior into markup. |
-| **External with `defer`** | Main application logic | Clean, cacheable, DOM-safe. |
-| **External with `async`** | Independent scripts | Fast but unpredictable order. |
-
----
-
-## 💻 Code Lab: Internal Placement
-
-<details open>
-<summary><strong>💻 Click to Hide/Show Code Example</strong></summary>
-<br>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Internal Script Placement</title>
-
-    <!-- Script in <head>: Runs BEFORE DOM body is constructed -->
-    <script>
-        function getAppConfig() {
-            return { version: "1.0.0", env: "production" };
-        }
-    </script>
-</head>
-<body>
-
-    <h1 id="page-heading">Welcome</h1>
-
-    <!-- Script at end of <body>: Runs AFTER DOM nodes are instantiated -->
-    <script>
-        document.getElementById("page-heading").textContent = "Dashboard Initialized";
-    </script>
-</body>
-</html>
-```
-</details>
-
----
-
-## 💻 Code Lab: External References
-
-<details open>
-<summary><strong>💻 Click to Hide/Show Code Example</strong></summary>
-<br>
-
-```html
-<!-- Relative path reference -->
-<script src="app.js" defer></script>
-
-<!-- Subdirectory reference -->
-<script src="assets/js/utils.js" defer></script>
-
-<!-- Absolute CDN reference -->
-<script src="https://cdn.example.com/libs/chart.min.js" defer></script>
-```
-</details>
-
----
-
-## 📊 Attribute Matrix
-
-| Attribute | Download Behavior | Execution Timing | Order | Best Fit |
-| :--- | :--- | :--- | :--- | :--- |
-| **None** | Blocks parser | Immediately after download | Preserved | Rare critical setup |
-| **`defer`** | Parallel | After DOM parsing | Preserved | Main application scripts |
-| **`async`** | Parallel | As soon as downloaded | Not preserved | Independent scripts |
-
-```mermaid
-gantt
-    title Browser Script Attribute Matrix
-    dateFormat X
-    axisFormat %s
-
-    section Default
-    HTML Parsing         :active, p1, 0, 30
-    Download & Exec JS   :crit, e1, 30, 70
-    Resume HTML Parsing  :active, p2, 70, 100
-
-    section Async
-    HTML Parsing         :active, ap1, 0, 40
-    Download JS          :done, ad1, 0, 40
-    Pause & Exec JS      :crit, ae1, 40, 60
-    Resume HTML Parsing  :active, ap2, 60, 100
-
-    section Defer
-    HTML Parsing         :active, dp1, 0, 80
-    Download JS          :done, dd1, 0, 50
-    Execute JS           :crit, de1, 80, 100
-```
-
----
-
-## 🚦 Decision Guide
-
-> [!TIP]
-> Use **`defer` for application scripts**. It gives the best balance of early download, stable order, and DOM-safe execution.
-
-> [!WARNING]
-> Avoid `async` when one script depends on another. Race conditions here are easy to create and painful to debug.
-
-> [!NOTE]
-> External scripts improve maintainability and can be cached across page visits.
-
----
-
-## ✅ Fast Recall
-
-| Rule | Outcome |
+| Method | Simple Meaning |
 | :--- | :--- |
-| **Default scripts block** | Slower parsing and rendering. |
-| **`defer` waits for DOM** | Reliable DOM access. |
-| **`async` ignores order** | Good only for independent work. |
-| **External files scale better** | Cleaner architecture and browser caching. |
+| Internal script | JavaScript written inside an HTML file. |
+| External script | JavaScript stored in a separate file. |
+| `<head>` script | Runs before or while the page is loading. |
+| `<body>` script | Often runs after page elements exist. |
+| External file | Linked with the `src` attribute. |
+
+---
+
+## Simple Example
+
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example</strong></summary>
+<br>
+
+```html
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+```
+</details>
+
+<details open>
+<summary><strong>💻 Click to Hide/Show Code Example</strong></summary>
+<br>
+
+```html
+<script src="myScript.js"></script>
+```
+</details>
+
+---
+
+## Remember
+
+- Use `<script>` to add JavaScript to HTML.
+- External scripts use the `src` attribute.
+- External scripts cannot contain `<script>` tags.
+- One external script can be reused by many pages.
 
 ---
 
