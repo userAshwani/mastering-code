@@ -44,7 +44,8 @@
 | **09** | **JavaScript `const`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/09-JavaScript-Const.md) | `Live` |
 | **10** | **JavaScript Data Types** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/10-JavaScript-Data-Types.md) | `Live` |
 | **11** | **JavaScript Operators** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/11-JavaScript-Operators.md) | `Live` |
-| **12** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| **12** | **JavaScript Arithmetic** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/12-JavaScript-Arithmetic.md) | `Live` |
+| **13** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
 ### 🔵 Upcoming Tracks
 
@@ -73,7 +74,8 @@
 │   │   ├── 08-JavaScript-Let.md
 │   │   ├── 09-JavaScript-Const.md
 │   │   ├── 10-JavaScript-Data-Types.md
-│   │   └── 11-JavaScript-Operators.md
+│   │   ├── 11-JavaScript-Operators.md
+│   │   └── 12-JavaScript-Arithmetic.md
 │   └── 02-DOM-Manipulation/
 │       └── 01-DOM-Element-Interaction.md
 └── README.md
@@ -87,7 +89,7 @@
 
 | Module | Coverage | Status |
 | :--- | :--- | :---: |
-| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements, comments, variables, `let`, `const`, data types, operators | `Done` |
+| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements, comments, variables, `let`, `const`, data types, operators, arithmetic | `Done` |
 | **02-Variables & Data Types** | `var`, `let`, `const`, primitives, objects, coercion | `Next` |
 | **03-Operators & Control Flow** | Conditions, loops, expressions, short-circuiting | `Planned` |
 | **04-Functions & Scope** | Declarations, arrows, closures, lexical scope | `Planned` |
