@@ -69,7 +69,8 @@
 | **34** | **JavaScript Number Properties** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/34-JavaScript-Number-Properties.md) | `Live` |
 | **35** | **JavaScript Number Reference** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/35-JavaScript-Number-Reference.md) | `Live` |
 | **36** | **JavaScript Bitwise Operators** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/36-JavaScript-Bitwise.md) | `Live` |
-| **37** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| **37** | **JavaScript BigInt** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/37-JavaScript-BigInt.md) | `Live` |
+| **38** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
 
 ### 🔵 Upcoming Tracks
 

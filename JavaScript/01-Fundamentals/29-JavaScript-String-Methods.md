@@ -61,7 +61,7 @@ console.log(paddedEnd.padEnd(4, "0")); // "5000"
 
 // Replacing text
 let sentence = "Please visit Microsoft!";
-let newSentence = sentence.replace("Microsoft", "W3Schools");
+let newSentence = sentence.replace("Microsoft", "JavaScript");
 
 // Splitting string to array
 let csv = "HTML,CSS,JavaScript";
