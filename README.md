@@ -6,158 +6,153 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-Active-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827&labelColor=111827)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Ashwani_Tiwari-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827)
 
-**A visual, high-density technical notebook for frontend engineering, programming fundamentals, runtime behavior, and production-grade software concepts.**
+**A short-note knowledge base for learning JavaScript step by step.**
 
 </div>
 
 ---
 
-## 🚀 Workspace Command Center
+## Workspace Overview
 
 | Track | Status | Focus |
 | :--- | :---: | :--- |
-| **JavaScript** | `Active` | Language fundamentals, browser runtime, DOM, debugging, async flow |
-| **Python** | `Planned` | Core syntax, data structures, automation, backend workflows |
-| **Go / Systems** | `Planned` | Concurrency, services, memory-conscious systems |
-| **Node.js & Backend** | `Planned` | APIs, event loop, server architecture |
-| **Rust / Low-Level** | `Planned` | Ownership, memory safety, performance fundamentals |
-
-> [!NOTE]
-> Each note is designed as a **GitHub-readable visual dashboard**: badges, diagrams, comparison tables, callouts, and open-by-default code labs.
+| **JavaScript** | `Active` | Basics, operators, control flow, strings, numbers, DOM |
+| **Python** | `Planned` | Core syntax, data structures, automation |
+| **Go / Systems** | `Planned` | Concurrency and systems concepts |
+| **Node.js & Backend** | `Planned` | APIs and backend architecture |
+| **Rust / Low-Level** | `Planned` | Ownership and memory safety |
 
 ---
 
-## 📚 Table of Contents
+## JavaScript Notes
 
-### 🟡 JavaScript
+### 01-Basics
 
-| # | Topic | Category | Link | Status |
-| :---: | :--- | :--- | :--- | :---: |
-| **01** | **JavaScript Introduction** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/01-JavaScript-Introduction.md) | `Live` |
-| **02** | **JavaScript Where To** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/02-Script-Placement-and-Execution.md) | `Live` |
-| **03** | **JavaScript Output** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/03-Data-Output-and-Debugging.md) | `Live` |
-| **04** | **JavaScript Syntax** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/04-JavaScript-Syntax.md) | `Live` |
-| **05** | **JavaScript Statements** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/05-JavaScript-Statements.md) | `Live` |
-| **06** | **JavaScript Comments** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/06-JavaScript-Comments.md) | `Live` |
-| **07** | **JavaScript Variables** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/07-JavaScript-Variables.md) | `Live` |
-| **08** | **JavaScript `let`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/08-JavaScript-Let.md) | `Live` |
-| **09** | **JavaScript `const`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/09-JavaScript-Const.md) | `Live` |
-| **10** | **JavaScript Data Types** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/10-JavaScript-Data-Types.md) | `Live` |
-| **11** | **JavaScript Operators** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/11-JavaScript-Operators.md) | `Live` |
-| **12** | **JavaScript Arithmetic** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/12-JavaScript-Arithmetic.md) | `Live` |
-| **13** | **JavaScript Assignment** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/13-JavaScript-Assignment.md) | `Live` |
-| **14** | **JavaScript Comparisons** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/14-JavaScript-Comparisons.md) | `Live` |
-| **15** | **JavaScript Conditionals** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/15-JavaScript-Conditionals.md) | `Live` |
-| **16** | **JavaScript `if`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/16-JavaScript-If.md) | `Live` |
-| **17** | **JavaScript `else`** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/17-JavaScript-If-Else.md) | `Live` |
-| **18** | **JavaScript Ternary Operator** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/18-JavaScript-Ternary-Operator.md) | `Live` |
-| **19** | **JavaScript Switch** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/19-JavaScript-Switch.md) | `Live` |
-| **20** | **JavaScript Booleans** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/20-JavaScript-Booleans.md) | `Live` |
-| **21** | **JavaScript Logical Operators** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/21-JavaScript-Logical-Operators.md) | `Live` |
-| **22** | **JavaScript Loops** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/22-JavaScript-Loops.md) | `Live` |
-| **23** | **JavaScript For Loop** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/23-JavaScript-For-Loop.md) | `Live` |
-| **24** | **JavaScript Break** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/24-JavaScript-Break.md) | `Live` |
-| **25** | **JavaScript Continue** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/25-JavaScript-Continue.md) | `Live` |
-| **26** | **JavaScript Control Flow** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/26-JavaScript-Control-Flow.md) | `Live` |
-| **27** | **JavaScript Strings** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/27-JavaScript-Strings.md) | `Live` |
-| **28** | **JavaScript String Templates** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/28-JavaScript-String-Templates.md) | `Live` |
-| **29** | **JavaScript String Methods** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/29-JavaScript-String-Methods.md) | `Live` |
-| **30** | **JavaScript String Search** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/30-JavaScript-String-Search.md) | `Live` |
-| **31** | **JavaScript String Reference** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/31-JavaScript-String-Reference.md) | `Live` |
-| **32** | **JavaScript Numbers** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/32-JavaScript-Numbers.md) | `Live` |
-| **33** | **JavaScript Number Methods** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/33-JavaScript-Number-Methods.md) | `Live` |
-| **34** | **JavaScript Number Properties** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/34-JavaScript-Number-Properties.md) | `Live` |
-| **35** | **JavaScript Number Reference** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/35-JavaScript-Number-Reference.md) | `Live` |
-| **36** | **JavaScript Bitwise Operators** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/36-JavaScript-Bitwise.md) | `Live` |
-| **37** | **JavaScript BigInt** | `JavaScript / 01-Fundamentals` | [Read Note](./JavaScript/01-Fundamentals/37-JavaScript-BigInt.md) | `Live` |
-| **38** | **JavaScript HTML DOM** | `JavaScript / 02-DOM-Manipulation` | [Read Note](./JavaScript/02-DOM-Manipulation/01-DOM-Element-Interaction.md) | `Live` |
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **01** | JavaScript Introduction | [Read Note](./JavaScript/01-Basics/01-JavaScript-Introduction.md) |
+| **02** | JavaScript Where To | [Read Note](./JavaScript/01-Basics/02-Script-Placement-and-Execution.md) |
+| **03** | JavaScript Output | [Read Note](./JavaScript/01-Basics/03-Data-Output-and-Debugging.md) |
+| **04** | JavaScript Syntax | [Read Note](./JavaScript/01-Basics/04-JavaScript-Syntax.md) |
+| **05** | JavaScript Statements | [Read Note](./JavaScript/01-Basics/05-JavaScript-Statements.md) |
+| **06** | JavaScript Comments | [Read Note](./JavaScript/01-Basics/06-JavaScript-Comments.md) |
+| **07** | JavaScript Variables | [Read Note](./JavaScript/01-Basics/07-JavaScript-Variables.md) |
+| **08** | JavaScript `let` | [Read Note](./JavaScript/01-Basics/08-JavaScript-Let.md) |
+| **09** | JavaScript `const` | [Read Note](./JavaScript/01-Basics/09-JavaScript-Const.md) |
+| **10** | JavaScript Data Types | [Read Note](./JavaScript/01-Basics/10-JavaScript-Data-Types.md) |
 
-### 🔵 Upcoming Tracks
+### 02-Operators-and-Control-Flow
 
-| Track | First Module | Status |
-| :--- | :--- | :---: |
-| **Python** | `01-Fundamentals` | `Planned` |
-| **Go / Systems** | `01-Fundamentals` | `Planned` |
-| **Node.js & Backend** | `01-Core` | `Planned` |
-| **Rust / Low-Level** | `01-Fundamentals` | `Planned` |
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **11** | JavaScript Operators | [Read Note](./JavaScript/02-Operators-and-Control-Flow/11-JavaScript-Operators.md) |
+| **12** | JavaScript Arithmetic | [Read Note](./JavaScript/02-Operators-and-Control-Flow/12-JavaScript-Arithmetic.md) |
+| **13** | JavaScript Assignment | [Read Note](./JavaScript/02-Operators-and-Control-Flow/13-JavaScript-Assignment.md) |
+| **14** | JavaScript Comparisons | [Read Note](./JavaScript/02-Operators-and-Control-Flow/14-JavaScript-Comparisons.md) |
+| **15** | JavaScript Conditionals | [Read Note](./JavaScript/02-Operators-and-Control-Flow/15-JavaScript-Conditionals.md) |
+| **16** | JavaScript `if` | [Read Note](./JavaScript/02-Operators-and-Control-Flow/16-JavaScript-If.md) |
+| **17** | JavaScript `else` | [Read Note](./JavaScript/02-Operators-and-Control-Flow/17-JavaScript-If-Else.md) |
+| **18** | JavaScript Ternary Operator | [Read Note](./JavaScript/02-Operators-and-Control-Flow/18-JavaScript-Ternary-Operator.md) |
+| **19** | JavaScript Switch | [Read Note](./JavaScript/02-Operators-and-Control-Flow/19-JavaScript-Switch.md) |
+| **20** | JavaScript Booleans | [Read Note](./JavaScript/02-Operators-and-Control-Flow/20-JavaScript-Booleans.md) |
+| **21** | JavaScript Logical Operators | [Read Note](./JavaScript/02-Operators-and-Control-Flow/21-JavaScript-Logical-Operators.md) |
+| **22** | JavaScript Loops | [Read Note](./JavaScript/02-Operators-and-Control-Flow/22-JavaScript-Loops.md) |
+| **23** | JavaScript For Loop | [Read Note](./JavaScript/02-Operators-and-Control-Flow/23-JavaScript-For-Loop.md) |
+| **24** | JavaScript Break | [Read Note](./JavaScript/02-Operators-and-Control-Flow/24-JavaScript-Break.md) |
+| **25** | JavaScript Continue | [Read Note](./JavaScript/02-Operators-and-Control-Flow/25-JavaScript-Continue.md) |
+| **26** | JavaScript Control Flow | [Read Note](./JavaScript/02-Operators-and-Control-Flow/26-JavaScript-Control-Flow.md) |
+
+### 03-Strings
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **27** | JavaScript Strings | [Read Note](./JavaScript/03-Strings/27-JavaScript-Strings.md) |
+| **28** | JavaScript String Templates | [Read Note](./JavaScript/03-Strings/28-JavaScript-String-Templates.md) |
+| **29** | JavaScript String Methods | [Read Note](./JavaScript/03-Strings/29-JavaScript-String-Methods.md) |
+| **30** | JavaScript String Search | [Read Note](./JavaScript/03-Strings/30-JavaScript-String-Search.md) |
+| **31** | JavaScript String Reference | [Read Note](./JavaScript/03-Strings/31-JavaScript-String-Reference.md) |
+
+### 04-Numbers
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **32** | JavaScript Numbers | [Read Note](./JavaScript/04-Numbers/32-JavaScript-Numbers.md) |
+| **33** | JavaScript Number Methods | [Read Note](./JavaScript/04-Numbers/33-JavaScript-Number-Methods.md) |
+| **34** | JavaScript Number Properties | [Read Note](./JavaScript/04-Numbers/34-JavaScript-Number-Properties.md) |
+| **35** | JavaScript Number Reference | [Read Note](./JavaScript/04-Numbers/35-JavaScript-Number-Reference.md) |
+| **36** | JavaScript Bitwise Operators | [Read Note](./JavaScript/04-Numbers/36-JavaScript-Bitwise.md) |
+| **37** | JavaScript BigInt | [Read Note](./JavaScript/04-Numbers/37-JavaScript-BigInt.md) |
+
+### 09-DOM-Manipulation
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **38** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
 
 ---
 
-## 🗂️ Repository Map
+## Repository Map
 
 ```text
 .
-├── JavaScript/
-│   ├── 01-Fundamentals/
-│   │   ├── 01-JavaScript-Introduction.md
-│   │   ├── 02-Script-Placement-and-Execution.md
-│   │   ├── 03-Data-Output-and-Debugging.md
-│   │   ├── 04-JavaScript-Syntax.md
-│   │   ├── 05-JavaScript-Statements.md
-│   │   ├── 06-JavaScript-Comments.md
-│   │   ├── 07-JavaScript-Variables.md
-│   │   ├── 08-JavaScript-Let.md
-│   │   ├── 09-JavaScript-Const.md
-│   │   ├── 10-JavaScript-Data-Types.md
-│   │   ├── 11-JavaScript-Operators.md
-│   │   ├── 12-JavaScript-Arithmetic.md
-│   │   ├── 13-JavaScript-Assignment.md
-│   │   ├── 14-JavaScript-Comparisons.md
-│   │   ├── 15-JavaScript-Conditionals.md
-│   │   ├── 16-JavaScript-If.md
-│   │   ├── 17-JavaScript-If-Else.md
-│   │   ├── 18-JavaScript-Ternary-Operator.md
-│   │   ├── 19-JavaScript-Switch.md
-│   │   ├── 20-JavaScript-Booleans.md
-│   │   ├── 21-JavaScript-Logical-Operators.md
-│   │   ├── 22-JavaScript-Loops.md
-│   │   ├── 23-JavaScript-For-Loop.md
-│   │   ├── 24-JavaScript-Break.md
-│   │   ├── 25-JavaScript-Continue.md
-│   │   ├── 26-JavaScript-Control-Flow.md
-│   │   ├── 27-JavaScript-Strings.md
-│   │   ├── 28-JavaScript-String-Templates.md
-│   │   ├── 29-JavaScript-String-Methods.md
-│   │   ├── 30-JavaScript-String-Search.md
-│   │   ├── 31-JavaScript-String-Reference.md
-│   │   ├── 32-JavaScript-Numbers.md
-│   │   ├── 33-JavaScript-Number-Methods.md
-│   │   ├── 34-JavaScript-Number-Properties.md
-│   │   ├── 35-JavaScript-Number-Reference.md
-│   │   └── 36-JavaScript-Bitwise.md
-│   └── 02-DOM-Manipulation/
-│       └── 01-DOM-Element-Interaction.md
-└── README.md
+|-- JavaScript/
+|   |-- 01-Basics/
+|   |   |-- 01-JavaScript-Introduction.md
+|   |   |-- 02-Script-Placement-and-Execution.md
+|   |   |-- 03-Data-Output-and-Debugging.md
+|   |   |-- 04-JavaScript-Syntax.md
+|   |   |-- 05-JavaScript-Statements.md
+|   |   |-- 06-JavaScript-Comments.md
+|   |   |-- 07-JavaScript-Variables.md
+|   |   |-- 08-JavaScript-Let.md
+|   |   |-- 09-JavaScript-Const.md
+|   |   `-- 10-JavaScript-Data-Types.md
+|   |-- 02-Operators-and-Control-Flow/
+|   |   |-- 11-JavaScript-Operators.md
+|   |   |-- 12-JavaScript-Arithmetic.md
+|   |   |-- 13-JavaScript-Assignment.md
+|   |   |-- 14-JavaScript-Comparisons.md
+|   |   |-- 15-JavaScript-Conditionals.md
+|   |   |-- 16-JavaScript-If.md
+|   |   |-- 17-JavaScript-If-Else.md
+|   |   |-- 18-JavaScript-Ternary-Operator.md
+|   |   |-- 19-JavaScript-Switch.md
+|   |   |-- 20-JavaScript-Booleans.md
+|   |   |-- 21-JavaScript-Logical-Operators.md
+|   |   |-- 22-JavaScript-Loops.md
+|   |   |-- 23-JavaScript-For-Loop.md
+|   |   |-- 24-JavaScript-Break.md
+|   |   |-- 25-JavaScript-Continue.md
+|   |   `-- 26-JavaScript-Control-Flow.md
+|   |-- 03-Strings/
+|   |   |-- 27-JavaScript-Strings.md
+|   |   |-- 28-JavaScript-String-Templates.md
+|   |   |-- 29-JavaScript-String-Methods.md
+|   |   |-- 30-JavaScript-String-Search.md
+|   |   `-- 31-JavaScript-String-Reference.md
+|   |-- 04-Numbers/
+|   |   |-- 32-JavaScript-Numbers.md
+|   |   |-- 33-JavaScript-Number-Methods.md
+|   |   |-- 34-JavaScript-Number-Properties.md
+|   |   |-- 35-JavaScript-Number-Reference.md
+|   |   |-- 36-JavaScript-Bitwise.md
+|   |   `-- 37-JavaScript-BigInt.md
+|   `-- 09-DOM-Manipulation/
+|       `-- 01-DOM-Element-Interaction.md
+|-- code.txt
+`-- README.md
 ```
 
 ---
 
-## 🎯 Learning Path Roadmap
-
-### 🟡 JavaScript Master Class
-
-| Module | Coverage | Status |
-| :--- | :--- | :---: |
-| **01-Fundamentals** | Introduction, script loading, output channels, debugging, syntax, statements, comments, variables, `let`, `const`, data types, operators, arithmetic, assignment, comparisons, conditionals, `if`, `else`, ternary, switch, booleans, logical operators, loops overview, for loop, break, continue, control flow, strings, string templates, string methods, string search, string reference, numbers, number methods, number properties, number reference, bitwise operators | `Done` |
-| **02-Variables & Data Types** | `var`, `let`, `const`, primitives, objects, coercion | `Next` |
-| **03-Operators & Control Flow** | Conditions, loops, expressions, short-circuiting | `Planned` |
-| **04-Functions & Scope** | Declarations, arrows, closures, lexical scope | `Planned` |
-| **05-DOM Manipulation** | Selection, mutation, style control, events | `Started` |
-| **06-Asynchronous JS** | Promises, `async` / `await`, event loop, microtasks | `Planned` |
-| **07-OOP & Prototypes** | Prototype chain, classes, inheritance, encapsulation | `Planned` |
-
----
-
-## ✨ Documentation Design System
+## Documentation Standard
 
 | Element | Standard |
 | :--- | :--- |
-| **Header** | Centered badge strip plus a one-line executive promise. |
-| **Dashboard** | Quick-scan table for the most important topic signals. |
-| **Diagrams** | Mermaid flowcharts for lifecycle, logic, architecture, and decision flow. |
-| **Code Labs** | `<details open>` blocks so code is visible by default and collapsible on demand. |
-| **Callouts** | GitHub alerts for notes, warnings, tips, and important production rules. |
-| **Footer** | Exact custom Ashwani Tiwari branding block with 120px logo. |
+| **Style** | Short, beginner-friendly notes. |
+| **Examples** | Open-by-default collapsible code blocks. |
+| **Indexing** | Notes grouped by learning category. |
+| **Footer** | Custom Ashwani Tiwari branding block with 120px logo. |
 
 ---
 
