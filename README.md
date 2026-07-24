@@ -16,7 +16,7 @@
 
 | Track | Status | Focus |
 | :--- | :---: | :--- |
-| **JavaScript** | `Active` | Basics, operators, control flow, strings, numbers, DOM |
+| **JavaScript** | `Active` | Basics, operators, control flow, strings, numbers, functions, DOM |
 | **Python** | `Planned` | Core syntax, data structures, automation |
 | **Go / Systems** | `Planned` | Concurrency and systems concepts |
 | **Node.js & Backend** | `Planned` | APIs and backend architecture |
@@ -83,6 +83,12 @@
 | **36** | JavaScript Bitwise Operators | [Read Note](./JavaScript/04-Numbers/36-JavaScript-Bitwise.md) |
 | **37** | JavaScript BigInt | [Read Note](./JavaScript/04-Numbers/37-JavaScript-BigInt.md) |
 
+### 05-Functions
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **39** | JavaScript Functions | [Read Note](./JavaScript/05-Functions/01-JavaScript-Functions.md) |
+
 ### 09-DOM-Manipulation
 
 | # | Topic | Link |
@@ -137,6 +143,8 @@
 |   |   |-- 35-JavaScript-Number-Reference.md
 |   |   |-- 36-JavaScript-Bitwise.md
 |   |   `-- 37-JavaScript-BigInt.md
+|   |-- 05-Functions/
+|   |   `-- 01-JavaScript-Functions.md
 |   `-- 09-DOM-Manipulation/
 |       `-- 01-DOM-Element-Interaction.md
 |-- code.txt
