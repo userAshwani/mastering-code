@@ -90,12 +90,13 @@
 | **38** | JavaScript Functions | [Read Note](./JavaScript/05-Functions/38-JavaScript-Functions.md) |
 | **39** | JavaScript Function Introduction | [Read Note](./JavaScript/05-Functions/39-JavaScript-Function-Introduction.md) |
 | **40** | JavaScript Function Invocation | [Read Note](./JavaScript/05-Functions/40-JavaScript-Function-Invocation.md) |
+| **41** | JavaScript Function Parameters | [Read Note](./JavaScript/05-Functions/41-JavaScript-Function-Parameters.md) |
 
 ### 09-DOM-Manipulation
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **41** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
+| **42** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
 
 ---
 
@@ -148,7 +149,8 @@
 |   |-- 05-Functions/
 |   |   |-- 38-JavaScript-Functions.md
 |   |   |-- 39-JavaScript-Function-Introduction.md
-|   |   `-- 40-JavaScript-Function-Invocation.md
+|   |   |-- 40-JavaScript-Function-Invocation.md
+|   |   `-- 41-JavaScript-Function-Parameters.md
 |   `-- 09-DOM-Manipulation/
 |       `-- 01-DOM-Element-Interaction.md
 |-- code.txt
