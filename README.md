@@ -87,14 +87,15 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **39** | JavaScript Functions | [Read Note](./JavaScript/05-Functions/01-JavaScript-Functions.md) |
-| **40** | JavaScript Function Introduction | [Read Note](./JavaScript/05-Functions/02-JavaScript-Function-Introduction.md) |
+| **38** | JavaScript Functions | [Read Note](./JavaScript/05-Functions/38-JavaScript-Functions.md) |
+| **39** | JavaScript Function Introduction | [Read Note](./JavaScript/05-Functions/39-JavaScript-Function-Introduction.md) |
+| **40** | JavaScript Function Invocation | [Read Note](./JavaScript/05-Functions/40-JavaScript-Function-Invocation.md) |
 
 ### 09-DOM-Manipulation
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **38** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
+| **41** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
 
 ---
 
@@ -145,8 +146,9 @@
 |   |   |-- 36-JavaScript-Bitwise.md
 |   |   `-- 37-JavaScript-BigInt.md
 |   |-- 05-Functions/
-|   |   |-- 01-JavaScript-Functions.md
-|   |   `-- 02-JavaScript-Function-Introduction.md
+|   |   |-- 38-JavaScript-Functions.md
+|   |   |-- 39-JavaScript-Function-Introduction.md
+|   |   `-- 40-JavaScript-Function-Invocation.md
 |   `-- 09-DOM-Manipulation/
 |       `-- 01-DOM-Element-Interaction.md
 |-- code.txt
