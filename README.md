@@ -88,6 +88,7 @@
 | # | Topic | Link |
 | :---: | :--- | :--- |
 | **39** | JavaScript Functions | [Read Note](./JavaScript/05-Functions/01-JavaScript-Functions.md) |
+| **40** | JavaScript Function Introduction | [Read Note](./JavaScript/05-Functions/02-JavaScript-Function-Introduction.md) |
 
 ### 09-DOM-Manipulation
 
@@ -144,7 +145,8 @@
 |   |   |-- 36-JavaScript-Bitwise.md
 |   |   `-- 37-JavaScript-BigInt.md
 |   |-- 05-Functions/
-|   |   `-- 01-JavaScript-Functions.md
+|   |   |-- 01-JavaScript-Functions.md
+|   |   `-- 02-JavaScript-Function-Introduction.md
 |   `-- 09-DOM-Manipulation/
 |       `-- 01-DOM-Element-Interaction.md
 |-- code.txt
