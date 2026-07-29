@@ -40,6 +40,11 @@
 | **08** | JavaScript `let` | [Read Note](./JavaScript/01-Basics/08-JavaScript-Let.md) |
 | **09** | JavaScript `const` | [Read Note](./JavaScript/01-Basics/09-JavaScript-Const.md) |
 | **10** | JavaScript Data Types | [Read Note](./JavaScript/01-Basics/10-JavaScript-Data-Types.md) |
+| **55** | JavaScript Scope | [Read Note](./JavaScript/01-Basics/55-JavaScript-Scope.md) |
+| **56** | JavaScript Code Blocks | [Read Note](./JavaScript/01-Basics/56-JavaScript-Code-Blocks.md) |
+| **57** | JavaScript Hoisting | [Read Note](./JavaScript/01-Basics/57-JavaScript-Hoisting.md) |
+| **58** | JavaScript `var`, `let`, and `const` | [Read Note](./JavaScript/01-Basics/58-JavaScript-Var-Let-Const.md) |
+| **59** | JavaScript Strict Mode | [Read Note](./JavaScript/01-Basics/59-JavaScript-Strict-Mode.md) |
 
 ### 02-Operators-and-Control-Flow
 
@@ -120,6 +125,16 @@
 | :---: | :--- | :--- |
 | **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) |
 
+### 09-Dates
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **60** | JavaScript Dates | [Read Note](./JavaScript/09-Dates/60-JavaScript-Dates.md) |
+| **61** | JavaScript Date Formats | [Read Note](./JavaScript/09-Dates/61-JavaScript-Date-Formats.md) |
+| **62** | JavaScript Date Get Methods | [Read Note](./JavaScript/09-Dates/62-JavaScript-Date-Get-Methods.md) |
+| **63** | JavaScript Date Set Methods | [Read Note](./JavaScript/09-Dates/63-JavaScript-Date-Set-Methods.md) |
+| **64** | JavaScript Date Reference | [Read Note](./JavaScript/09-Dates/64-JavaScript-Date-Reference.md) |
+
 ---
 
 ## Repository Map
@@ -137,7 +152,12 @@
 |   |   |-- 07-JavaScript-Variables.md
 |   |   |-- 08-JavaScript-Let.md
 |   |   |-- 09-JavaScript-Const.md
-|   |   `-- 10-JavaScript-Data-Types.md
+|   |   |-- 10-JavaScript-Data-Types.md
+|   |   |-- 55-JavaScript-Scope.md
+|   |   |-- 56-JavaScript-Code-Blocks.md
+|   |   |-- 57-JavaScript-Hoisting.md
+|   |   |-- 58-JavaScript-Var-Let-Const.md
+|   |   `-- 59-JavaScript-Strict-Mode.md
 |   |-- 02-Operators-and-Control-Flow/
 |   |   |-- 11-JavaScript-Operators.md
 |   |   |-- 12-JavaScript-Arithmetic.md
@@ -187,8 +207,14 @@
 |   |   `-- 52-JavaScript-Object-Constructors.md
 |   |-- 07-DOM-Manipulation/
 |   |   `-- 53-DOM-Element-Interaction.md
-|   `-- 08-Browser-APIs/
-|       `-- 54-JavaScript-Timers.md
+|   |-- 08-Browser-APIs/
+|   |   `-- 54-JavaScript-Timers.md
+|   `-- 09-Dates/
+|       |-- 60-JavaScript-Dates.md
+|       |-- 61-JavaScript-Date-Formats.md
+|       |-- 62-JavaScript-Date-Get-Methods.md
+|       |-- 63-JavaScript-Date-Set-Methods.md
+|       `-- 64-JavaScript-Date-Reference.md
 |-- code.txt
 `-- README.md
 ```
