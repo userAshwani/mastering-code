@@ -1,4 +1,4 @@
-# Mastering Programming & Software Engineering
+﻿# Mastering Programming & Software Engineering
 
 <div align="center">
 
@@ -135,6 +135,31 @@
 | **63** | JavaScript Date Set Methods | [Read Note](./JavaScript/09-Dates/63-JavaScript-Date-Set-Methods.md) |
 | **64** | JavaScript Date Reference | [Read Note](./JavaScript/09-Dates/64-JavaScript-Date-Reference.md) |
 
+### 10-Temporal
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **65** | JavaScript Temporal | [Read Note](./JavaScript/10-Temporal/65-JavaScript-Temporal.md) |
+| **66** | JavaScript Temporal Introduction | [Read Note](./JavaScript/10-Temporal/66-JavaScript-Temporal-Introduction.md) |
+| **67** | JavaScript Temporal vs Date | [Read Note](./JavaScript/10-Temporal/67-JavaScript-Temporal-vs-Date.md) |
+| **68** | JavaScript Temporal Duration | [Read Note](./JavaScript/10-Temporal/68-JavaScript-Temporal-Duration.md) |
+| **69** | JavaScript Temporal Instant | [Read Note](./JavaScript/10-Temporal/69-JavaScript-Temporal-Instant.md) |
+| **70** | JavaScript Temporal PlainDateTime | [Read Note](./JavaScript/10-Temporal/70-JavaScript-Temporal-PlainDateTime.md) |
+| **71** | JavaScript Temporal PlainDate | [Read Note](./JavaScript/10-Temporal/71-JavaScript-Temporal-PlainDate.md) |
+| **72** | JavaScript Temporal PlainYearMonth | [Read Note](./JavaScript/10-Temporal/72-JavaScript-Temporal-PlainYearMonth.md) |
+| **73** | JavaScript Temporal PlainMonthDay | [Read Note](./JavaScript/10-Temporal/73-JavaScript-Temporal-PlainMonthDay.md) |
+| **74** | JavaScript Temporal PlainTime | [Read Note](./JavaScript/10-Temporal/74-JavaScript-Temporal-PlainTime.md) |
+| **75** | JavaScript Temporal ZonedDateTime | [Read Note](./JavaScript/10-Temporal/75-JavaScript-Temporal-ZonedDateTime.md) |
+| **76** | JavaScript Temporal Now | [Read Note](./JavaScript/10-Temporal/76-JavaScript-Temporal-Now.md) |
+| **77** | JavaScript Temporal Arithmetic | [Read Note](./JavaScript/10-Temporal/77-JavaScript-Temporal-Arithmetic.md) |
+| **78** | JavaScript Temporal Differences | [Read Note](./JavaScript/10-Temporal/78-JavaScript-Temporal-Differences.md) |
+| **79** | JavaScript Temporal Compare | [Read Note](./JavaScript/10-Temporal/79-JavaScript-Temporal-Compare.md) |
+| **80** | JavaScript Temporal Conversion | [Read Note](./JavaScript/10-Temporal/80-JavaScript-Temporal-Conversion.md) |
+| **81** | JavaScript Temporal Formats | [Read Note](./JavaScript/10-Temporal/81-JavaScript-Temporal-Formats.md) |
+| **82** | JavaScript Temporal Mistakes | [Read Note](./JavaScript/10-Temporal/82-JavaScript-Temporal-Mistakes.md) |
+| **83** | JavaScript Temporal Migrate | [Read Note](./JavaScript/10-Temporal/83-JavaScript-Temporal-Migrate.md) |
+| **84** | JavaScript Temporal Standards | [Read Note](./JavaScript/10-Temporal/84-JavaScript-Temporal-Standards.md) |
+| **85** | JavaScript Temporal Reference | [Read Note](./JavaScript/10-Temporal/85-JavaScript-Temporal-Reference.md) |
 ---
 
 ## Repository Map
@@ -244,4 +269,5 @@
 *Explore full-stack architecture, projects, and client work at [ashwanitiwari.com/portfolio](https://ashwanitiwari.com/portfolio)*
 
 </div>
+
 
