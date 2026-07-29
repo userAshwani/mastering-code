@@ -101,24 +101,24 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **47** | JavaScript Objects | [Read Note](./JavaScript/06-Objects/01-JavaScript-Objects.md) |
-| **48** | JavaScript Object Properties | [Read Note](./JavaScript/06-Objects/02-JavaScript-Object-Properties.md) |
-| **49** | JavaScript Object Methods | [Read Note](./JavaScript/06-Objects/03-JavaScript-Object-Methods.md) |
-| **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/04-JavaScript-Object-This.md) |
-| **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/05-JavaScript-Display-Objects.md) |
-| **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/06-JavaScript-Object-Constructors.md) |
+| **47** | JavaScript Objects | [Read Note](./JavaScript/06-Objects/47-JavaScript-Objects.md) |
+| **48** | JavaScript Object Properties | [Read Note](./JavaScript/06-Objects/48-JavaScript-Object-Properties.md) |
+| **49** | JavaScript Object Methods | [Read Note](./JavaScript/06-Objects/49-JavaScript-Object-Methods.md) |
+| **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/50-JavaScript-Object-This.md) |
+| **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/51-JavaScript-Display-Objects.md) |
+| **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/52-JavaScript-Object-Constructors.md) |
 
-### 10-Browser-APIs
-
-| # | Topic | Link |
-| :---: | :--- | :--- |
-| **53** | JavaScript Timers | [Read Note](./JavaScript/10-Browser-APIs/01-JavaScript-Timers.md) |
-
-### 09-DOM-Manipulation
+### 07-DOM-Manipulation
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **54** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
+| **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) |
+
+### 08-Browser-APIs
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) |
 
 ---
 
@@ -179,16 +179,16 @@
 |   |   |-- 45-JavaScript-Arrow-Functions.md
 |   |   `-- 46-JavaScript-Function-Quiz.md
 |   |-- 06-Objects/
-|   |   |-- 01-JavaScript-Objects.md
-|   |   |-- 02-JavaScript-Object-Properties.md
-|   |   |-- 03-JavaScript-Object-Methods.md
-|   |   |-- 04-JavaScript-Object-This.md
-|   |   |-- 05-JavaScript-Display-Objects.md
-|   |   `-- 06-JavaScript-Object-Constructors.md
-|   |-- 09-DOM-Manipulation/
-|   |   `-- 01-DOM-Element-Interaction.md
-|   `-- 10-Browser-APIs/
-|       `-- 01-JavaScript-Timers.md
+|   |   |-- 47-JavaScript-Objects.md
+|   |   |-- 48-JavaScript-Object-Properties.md
+|   |   |-- 49-JavaScript-Object-Methods.md
+|   |   |-- 50-JavaScript-Object-This.md
+|   |   |-- 51-JavaScript-Display-Objects.md
+|   |   `-- 52-JavaScript-Object-Constructors.md
+|   |-- 07-DOM-Manipulation/
+|   |   `-- 53-DOM-Element-Interaction.md
+|   `-- 08-Browser-APIs/
+|       `-- 54-JavaScript-Timers.md
 |-- code.txt
 `-- README.md
 ```
@@ -218,3 +218,4 @@
 *Explore full-stack architecture, projects, and client work at [ashwanitiwari.com/portfolio](https://ashwanitiwari.com/portfolio)*
 
 </div>
+
