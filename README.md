@@ -93,12 +93,32 @@
 | **41** | JavaScript Function Parameters | [Read Note](./JavaScript/05-Functions/41-JavaScript-Function-Parameters.md) |
 | **42** | JavaScript Function Return | [Read Note](./JavaScript/05-Functions/42-JavaScript-Function-Return.md) |
 | **43** | JavaScript Function Arguments | [Read Note](./JavaScript/05-Functions/43-JavaScript-Function-Arguments.md) |
+| **44** | JavaScript Function Expressions | [Read Note](./JavaScript/05-Functions/44-JavaScript-Function-Expressions.md) |
+| **45** | JavaScript Arrow Functions | [Read Note](./JavaScript/05-Functions/45-JavaScript-Arrow-Functions.md) |
+| **46** | JavaScript Function Quiz | [Read Note](./JavaScript/05-Functions/46-JavaScript-Function-Quiz.md) |
+
+### 06-Objects
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **47** | JavaScript Objects | [Read Note](./JavaScript/06-Objects/01-JavaScript-Objects.md) |
+| **48** | JavaScript Object Properties | [Read Note](./JavaScript/06-Objects/02-JavaScript-Object-Properties.md) |
+| **49** | JavaScript Object Methods | [Read Note](./JavaScript/06-Objects/03-JavaScript-Object-Methods.md) |
+| **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/04-JavaScript-Object-This.md) |
+| **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/05-JavaScript-Display-Objects.md) |
+| **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/06-JavaScript-Object-Constructors.md) |
+
+### 10-Browser-APIs
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **53** | JavaScript Timers | [Read Note](./JavaScript/10-Browser-APIs/01-JavaScript-Timers.md) |
 
 ### 09-DOM-Manipulation
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **44** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
+| **54** | JavaScript HTML DOM | [Read Note](./JavaScript/09-DOM-Manipulation/01-DOM-Element-Interaction.md) |
 
 ---
 
@@ -154,9 +174,21 @@
 |   |   |-- 40-JavaScript-Function-Invocation.md
 |   |   |-- 41-JavaScript-Function-Parameters.md
 |   |   |-- 42-JavaScript-Function-Return.md
-|   |   `-- 43-JavaScript-Function-Arguments.md
-|   `-- 09-DOM-Manipulation/
-|       `-- 01-DOM-Element-Interaction.md
+|   |   |-- 43-JavaScript-Function-Arguments.md
+|   |   |-- 44-JavaScript-Function-Expressions.md
+|   |   |-- 45-JavaScript-Arrow-Functions.md
+|   |   `-- 46-JavaScript-Function-Quiz.md
+|   |-- 06-Objects/
+|   |   |-- 01-JavaScript-Objects.md
+|   |   |-- 02-JavaScript-Object-Properties.md
+|   |   |-- 03-JavaScript-Object-Methods.md
+|   |   |-- 04-JavaScript-Object-This.md
+|   |   |-- 05-JavaScript-Display-Objects.md
+|   |   `-- 06-JavaScript-Object-Constructors.md
+|   |-- 09-DOM-Manipulation/
+|   |   `-- 01-DOM-Element-Interaction.md
+|   `-- 10-Browser-APIs/
+|       `-- 01-JavaScript-Timers.md
 |-- code.txt
 `-- README.md
 ```
