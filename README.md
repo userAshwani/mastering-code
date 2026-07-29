@@ -16,11 +16,11 @@
 
 | Track | Status | Focus |
 | :--- | :---: | :--- |
-| **JavaScript** | `Active` | Basics, operators, control flow, strings, numbers, functions, DOM |
-| **Python** | `Planned` | Core syntax, data structures, automation |
-| **Go / Systems** | `Planned` | Concurrency and systems concepts |
-| **Node.js & Backend** | `Planned` | APIs and backend architecture |
-| **Rust / Low-Level** | `Planned` | Ownership and memory safety |
+| **JavaScript** | Active | Basics, operators, control flow, strings, numbers, functions, DOM, collections, debugging |
+| **Python** | Planned | Core syntax, data structures, automation |
+| **Go / Systems** | Planned | Concurrency and systems concepts |
+| **Node.js & Backend** | Planned | APIs and backend architecture |
+| **Rust / Low-Level** | Planned | Ownership and memory safety |
 
 ---
 
@@ -43,9 +43,8 @@
 | **55** | JavaScript Scope | [Read Note](./JavaScript/01-Basics/55-JavaScript-Scope.md) |
 | **56** | JavaScript Code Blocks | [Read Note](./JavaScript/01-Basics/56-JavaScript-Code-Blocks.md) |
 | **57** | JavaScript Hoisting | [Read Note](./JavaScript/01-Basics/57-JavaScript-Hoisting.md) |
-| **58** | JavaScript `var`, `let`, and `const` | [Read Note](./JavaScript/01-Basics/58-JavaScript-Var-Let-Const.md) |
+| **58** | JavaScript var let and const | [Read Note](./JavaScript/01-Basics/58-JavaScript-Var-Let-Const.md) |
 | **59** | JavaScript Strict Mode | [Read Note](./JavaScript/01-Basics/59-JavaScript-Strict-Mode.md) |
-
 ### 02-Operators-and-Control-Flow
 
 | # | Topic | Link |
@@ -63,10 +62,9 @@
 | **21** | JavaScript Logical Operators | [Read Note](./JavaScript/02-Operators-and-Control-Flow/21-JavaScript-Logical-Operators.md) |
 | **22** | JavaScript Loops | [Read Note](./JavaScript/02-Operators-and-Control-Flow/22-JavaScript-Loops.md) |
 | **23** | JavaScript For Loop | [Read Note](./JavaScript/02-Operators-and-Control-Flow/23-JavaScript-For-Loop.md) |
-| **24** | JavaScript Break | [Read Note](./JavaScript/02-Operators-and-Control-Flow/24-JavaScript-Break.md) |
+| **24** | JavaScript Break and Continue | [Read Note](./JavaScript/02-Operators-and-Control-Flow/24-JavaScript-Break.md) |
 | **25** | JavaScript Continue | [Read Note](./JavaScript/02-Operators-and-Control-Flow/25-JavaScript-Continue.md) |
 | **26** | JavaScript Control Flow | [Read Note](./JavaScript/02-Operators-and-Control-Flow/26-JavaScript-Control-Flow.md) |
-
 ### 03-Strings
 
 | # | Topic | Link |
@@ -76,7 +74,6 @@
 | **29** | JavaScript String Methods | [Read Note](./JavaScript/03-Strings/29-JavaScript-String-Methods.md) |
 | **30** | JavaScript String Search | [Read Note](./JavaScript/03-Strings/30-JavaScript-String-Search.md) |
 | **31** | JavaScript String Reference | [Read Note](./JavaScript/03-Strings/31-JavaScript-String-Reference.md) |
-
 ### 04-Numbers
 
 | # | Topic | Link |
@@ -87,7 +84,6 @@
 | **35** | JavaScript Number Reference | [Read Note](./JavaScript/04-Numbers/35-JavaScript-Number-Reference.md) |
 | **36** | JavaScript Bitwise Operators | [Read Note](./JavaScript/04-Numbers/36-JavaScript-Bitwise.md) |
 | **37** | JavaScript BigInt | [Read Note](./JavaScript/04-Numbers/37-JavaScript-BigInt.md) |
-
 ### 05-Functions
 
 | # | Topic | Link |
@@ -101,7 +97,6 @@
 | **44** | JavaScript Function Expressions | [Read Note](./JavaScript/05-Functions/44-JavaScript-Function-Expressions.md) |
 | **45** | JavaScript Arrow Functions | [Read Note](./JavaScript/05-Functions/45-JavaScript-Arrow-Functions.md) |
 | **46** | JavaScript Function Quiz | [Read Note](./JavaScript/05-Functions/46-JavaScript-Function-Quiz.md) |
-
 ### 06-Objects
 
 | # | Topic | Link |
@@ -112,19 +107,16 @@
 | **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/50-JavaScript-Object-This.md) |
 | **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/51-JavaScript-Display-Objects.md) |
 | **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/52-JavaScript-Object-Constructors.md) |
-
 ### 07-DOM-Manipulation
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
 | **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) |
-
 ### 08-Browser-APIs
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
 | **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) |
-
 ### 09-Dates
 
 | # | Topic | Link |
@@ -134,7 +126,6 @@
 | **62** | JavaScript Date Get Methods | [Read Note](./JavaScript/09-Dates/62-JavaScript-Date-Get-Methods.md) |
 | **63** | JavaScript Date Set Methods | [Read Note](./JavaScript/09-Dates/63-JavaScript-Date-Set-Methods.md) |
 | **64** | JavaScript Date Reference | [Read Note](./JavaScript/09-Dates/64-JavaScript-Date-Reference.md) |
-
 ### 10-Temporal
 
 | # | Topic | Link |
@@ -160,7 +151,6 @@
 | **83** | JavaScript Temporal Migrate | [Read Note](./JavaScript/10-Temporal/83-JavaScript-Temporal-Migrate.md) |
 | **84** | JavaScript Temporal Standards | [Read Note](./JavaScript/10-Temporal/84-JavaScript-Temporal-Standards.md) |
 | **85** | JavaScript Temporal Reference | [Read Note](./JavaScript/10-Temporal/85-JavaScript-Temporal-Reference.md) |
-
 ### 11-Arrays-and-Collections
 
 | # | Topic | Link |
@@ -185,11 +175,81 @@
 | **103** | JavaScript Looping | [Read Note](./JavaScript/11-Arrays-and-Collections/103-JavaScript-Looping.md) |
 | **104** | JavaScript Iterables | [Read Note](./JavaScript/11-Arrays-and-Collections/104-JavaScript-Iterables.md) |
 | **105** | JavaScript Iterators | [Read Note](./JavaScript/11-Arrays-and-Collections/105-JavaScript-Iterators.md) |
-| **106** | JavaScript Generators | [Read Note](./JavaScript/11-Arrays-and-Collections/106-JavaScript-Generators.md) |---
+| **106** | JavaScript Generators | [Read Note](./JavaScript/11-Arrays-and-Collections/106-JavaScript-Generators.md) |
+### 12-Math-and-Regular-Expressions
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **107** | JavaScript Math | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/107-JavaScript-Math.md) |
+| **108** | JavaScript Math Reference | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/108-JavaScript-Math-Reference.md) |
+| **109** | JavaScript Random | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/109-JavaScript-Random.md) |
+| **110** | JavaScript Regular Expressions | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/110-JavaScript-Regular-Expressions.md) |
+| **111** | JavaScript RegExp Flags | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/111-JavaScript-RegExp-Flags.md) |
+| **112** | JavaScript RegExp Characters | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/112-JavaScript-RegExp-Characters.md) |
+| **113** | JavaScript RegExp Metacharacters | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/113-JavaScript-RegExp-Metacharacters.md) |
+| **114** | JavaScript RegExp Assertions | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/114-JavaScript-RegExp-Assertions.md) |
+| **115** | JavaScript RegExp Groups | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/115-JavaScript-RegExp-Groups.md) |
+| **116** | JavaScript RegExp Quantifiers | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/116-JavaScript-RegExp-Quantifiers.md) |
+| **117** | JavaScript RegExp Patterns | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/117-JavaScript-RegExp-Patterns.md) |
+| **118** | JavaScript RegExp Objects | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/118-JavaScript-RegExp-Objects.md) |
+| **119** | JavaScript RegExp Methods | [Read Note](./JavaScript/12-Math-and-Regular-Expressions/119-JavaScript-RegExp-Methods.md) |
+### 13-Types-and-Conversion
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **120** | JavaScript Data Types Overview | [Read Note](./JavaScript/13-Types-and-Conversion/120-JavaScript-Data-Types-Overview.md) |
+| **121** | JavaScript Primitive Data Types | [Read Note](./JavaScript/13-Types-and-Conversion/121-JavaScript-Primitive-Data-Types.md) |
+| **122** | JavaScript Object Data Types | [Read Note](./JavaScript/13-Types-and-Conversion/122-JavaScript-Object-Data-Types.md) |
+| **123** | JavaScript Symbol | [Read Note](./JavaScript/13-Types-and-Conversion/123-JavaScript-Symbol.md) |
+| **124** | JavaScript typeof | [Read Note](./JavaScript/13-Types-and-Conversion/124-JavaScript-Typeof.md) |
+| **125** | JavaScript Undefined | [Read Note](./JavaScript/13-Types-and-Conversion/125-JavaScript-Undefined.md) |
+| **126** | JavaScript NaN | [Read Note](./JavaScript/13-Types-and-Conversion/126-JavaScript-NaN.md) |
+| **127** | JavaScript toString | [Read Note](./JavaScript/13-Types-and-Conversion/127-JavaScript-ToString.md) |
+| **128** | JavaScript toLocaleString | [Read Note](./JavaScript/13-Types-and-Conversion/128-JavaScript-ToLocaleString.md) |
+| **129** | JavaScript Type Coercion | [Read Note](./JavaScript/13-Types-and-Conversion/129-JavaScript-Type-Coercion.md) |
+| **130** | JavaScript Type Conversion | [Read Note](./JavaScript/13-Types-and-Conversion/130-JavaScript-Type-Conversion.md) |
+| **131** | JavaScript Destructuring | [Read Note](./JavaScript/13-Types-and-Conversion/131-JavaScript-Destructuring.md) |
+### 14-Errors-and-Debugging
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **132** | JavaScript Errors Introduction | [Read Note](./JavaScript/14-Errors-and-Debugging/132-JavaScript-Errors-Introduction.md) |
+| **133** | JavaScript Silent Errors | [Read Note](./JavaScript/14-Errors-and-Debugging/133-JavaScript-Silent-Errors.md) |
+| **134** | JavaScript Errors | [Read Note](./JavaScript/14-Errors-and-Debugging/134-JavaScript-Errors.md) |
+| **135** | JavaScript Error Object | [Read Note](./JavaScript/14-Errors-and-Debugging/135-JavaScript-Error-Object.md) |
+| **136** | JavaScript Debugging | [Read Note](./JavaScript/14-Errors-and-Debugging/136-JavaScript-Debugging.md) |
+| **137** | JavaScript Debugging Console | [Read Note](./JavaScript/14-Errors-and-Debugging/137-JavaScript-Debugging-Console.md) |
+| **138** | JavaScript Debugging Breakpoints | [Read Note](./JavaScript/14-Errors-and-Debugging/138-JavaScript-Debugging-Breakpoints.md) |
+| **139** | JavaScript Debugging Errors | [Read Note](./JavaScript/14-Errors-and-Debugging/139-JavaScript-Debugging-Errors.md) |
+| **140** | JavaScript Debugging Async | [Read Note](./JavaScript/14-Errors-and-Debugging/140-JavaScript-Debugging-Async.md) |
+| **141** | JavaScript Debugging Reference | [Read Note](./JavaScript/14-Errors-and-Debugging/141-JavaScript-Debugging-Reference.md) |
+### 15-Code-Quality-and-Reference
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **142** | JavaScript Conventions | [Read Note](./JavaScript/15-Code-Quality-and-Reference/142-JavaScript-Conventions.md) |
+| **143** | JavaScript Best Practices | [Read Note](./JavaScript/15-Code-Quality-and-Reference/143-JavaScript-Best-Practices.md) |
+| **144** | JavaScript Common Mistakes | [Read Note](./JavaScript/15-Code-Quality-and-Reference/144-JavaScript-Common-Mistakes.md) |
+| **145** | JavaScript Performance | [Read Note](./JavaScript/15-Code-Quality-and-Reference/145-JavaScript-Performance.md) |
+| **146** | JavaScript Alphabetic Reference | [Read Note](./JavaScript/15-Code-Quality-and-Reference/146-JavaScript-Alphabetic-Reference.md) |
+| **147** | JavaScript Statements Reference | [Read Note](./JavaScript/15-Code-Quality-and-Reference/147-JavaScript-Statements-Reference.md) |
+| **148** | JavaScript Reserved Words | [Read Note](./JavaScript/15-Code-Quality-and-Reference/148-JavaScript-Reserved-Words.md) |
+| **149** | JavaScript Operators Reference | [Read Note](./JavaScript/15-Code-Quality-and-Reference/149-JavaScript-Operators-Reference.md) |
+| **150** | JavaScript Operator Precedence | [Read Note](./JavaScript/15-Code-Quality-and-Reference/150-JavaScript-Operator-Precedence.md) |
+### 16-Projects
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **151** | JavaScript Counter Project | [Read Note](./JavaScript/16-Projects/151-JavaScript-Counter-Project.md) |
+| **152** | JavaScript Event Listener Project | [Read Note](./JavaScript/16-Projects/152-JavaScript-Event-Listener-Project.md) |
+| **153** | JavaScript Todo Project | [Read Note](./JavaScript/16-Projects/153-JavaScript-Todo-Project.md) |
+| **154** | JavaScript Modal Popup Project | [Read Note](./JavaScript/16-Projects/154-JavaScript-Modal-Popup-Project.md) |
+| **155** | JavaScript Form Validation Project | [Read Note](./JavaScript/16-Projects/155-JavaScript-Form-Validation-Project.md) |
+---
 
 ## Repository Map
 
-```text
+``text
 .
 |-- JavaScript/
 |   |-- 01-Basics/
@@ -259,15 +319,113 @@
 |   |   `-- 53-DOM-Element-Interaction.md
 |   |-- 08-Browser-APIs/
 |   |   `-- 54-JavaScript-Timers.md
-|   `-- 09-Dates/
-|       |-- 60-JavaScript-Dates.md
-|       |-- 61-JavaScript-Date-Formats.md
-|       |-- 62-JavaScript-Date-Get-Methods.md
-|       |-- 63-JavaScript-Date-Set-Methods.md
-|       `-- 64-JavaScript-Date-Reference.md
+|   |-- 09-Dates/
+|   |   |-- 60-JavaScript-Dates.md
+|   |   |-- 61-JavaScript-Date-Formats.md
+|   |   |-- 62-JavaScript-Date-Get-Methods.md
+|   |   |-- 63-JavaScript-Date-Set-Methods.md
+|   |   `-- 64-JavaScript-Date-Reference.md
+|   |-- 10-Temporal/
+|   |   |-- 65-JavaScript-Temporal.md
+|   |   |-- 66-JavaScript-Temporal-Introduction.md
+|   |   |-- 67-JavaScript-Temporal-vs-Date.md
+|   |   |-- 68-JavaScript-Temporal-Duration.md
+|   |   |-- 69-JavaScript-Temporal-Instant.md
+|   |   |-- 70-JavaScript-Temporal-PlainDateTime.md
+|   |   |-- 71-JavaScript-Temporal-PlainDate.md
+|   |   |-- 72-JavaScript-Temporal-PlainYearMonth.md
+|   |   |-- 73-JavaScript-Temporal-PlainMonthDay.md
+|   |   |-- 74-JavaScript-Temporal-PlainTime.md
+|   |   |-- 75-JavaScript-Temporal-ZonedDateTime.md
+|   |   |-- 76-JavaScript-Temporal-Now.md
+|   |   |-- 77-JavaScript-Temporal-Arithmetic.md
+|   |   |-- 78-JavaScript-Temporal-Differences.md
+|   |   |-- 79-JavaScript-Temporal-Compare.md
+|   |   |-- 80-JavaScript-Temporal-Conversion.md
+|   |   |-- 81-JavaScript-Temporal-Formats.md
+|   |   |-- 82-JavaScript-Temporal-Mistakes.md
+|   |   |-- 83-JavaScript-Temporal-Migrate.md
+|   |   |-- 84-JavaScript-Temporal-Standards.md
+|   |   `-- 85-JavaScript-Temporal-Reference.md
+|   |-- 11-Arrays-and-Collections/
+|   |   |-- 86-JavaScript-Arrays.md
+|   |   |-- 87-JavaScript-Array-Constructor.md
+|   |   |-- 88-JavaScript-Array-Methods.md
+|   |   |-- 89-JavaScript-Array-Search.md
+|   |   |-- 90-JavaScript-Array-Sort.md
+|   |   |-- 91-JavaScript-Array-Iteration.md
+|   |   |-- 92-JavaScript-Array-Reference.md
+|   |   |-- 93-JavaScript-Array-Const.md
+|   |   |-- 94-JavaScript-Sets.md
+|   |   |-- 95-JavaScript-Set-Methods.md
+|   |   |-- 96-JavaScript-Set-Logic.md
+|   |   |-- 97-JavaScript-Weak-Sets.md
+|   |   |-- 98-JavaScript-Set-Reference.md
+|   |   |-- 99-JavaScript-Maps.md
+|   |   |-- 100-JavaScript-Map-Methods.md
+|   |   |-- 101-JavaScript-Weak-Maps.md
+|   |   |-- 102-JavaScript-Map-Reference.md
+|   |   |-- 103-JavaScript-Looping.md
+|   |   |-- 104-JavaScript-Iterables.md
+|   |   |-- 105-JavaScript-Iterators.md
+|   |   `-- 106-JavaScript-Generators.md
+|   |-- 12-Math-and-Regular-Expressions/
+|   |   |-- 107-JavaScript-Math.md
+|   |   |-- 108-JavaScript-Math-Reference.md
+|   |   |-- 109-JavaScript-Random.md
+|   |   |-- 110-JavaScript-Regular-Expressions.md
+|   |   |-- 111-JavaScript-RegExp-Flags.md
+|   |   |-- 112-JavaScript-RegExp-Characters.md
+|   |   |-- 113-JavaScript-RegExp-Metacharacters.md
+|   |   |-- 114-JavaScript-RegExp-Assertions.md
+|   |   |-- 115-JavaScript-RegExp-Groups.md
+|   |   |-- 116-JavaScript-RegExp-Quantifiers.md
+|   |   |-- 117-JavaScript-RegExp-Patterns.md
+|   |   |-- 118-JavaScript-RegExp-Objects.md
+|   |   `-- 119-JavaScript-RegExp-Methods.md
+|   |-- 13-Types-and-Conversion/
+|   |   |-- 120-JavaScript-Data-Types-Overview.md
+|   |   |-- 121-JavaScript-Primitive-Data-Types.md
+|   |   |-- 122-JavaScript-Object-Data-Types.md
+|   |   |-- 123-JavaScript-Symbol.md
+|   |   |-- 124-JavaScript-Typeof.md
+|   |   |-- 125-JavaScript-Undefined.md
+|   |   |-- 126-JavaScript-NaN.md
+|   |   |-- 127-JavaScript-ToString.md
+|   |   |-- 128-JavaScript-ToLocaleString.md
+|   |   |-- 129-JavaScript-Type-Coercion.md
+|   |   |-- 130-JavaScript-Type-Conversion.md
+|   |   `-- 131-JavaScript-Destructuring.md
+|   |-- 14-Errors-and-Debugging/
+|   |   |-- 132-JavaScript-Errors-Introduction.md
+|   |   |-- 133-JavaScript-Silent-Errors.md
+|   |   |-- 134-JavaScript-Errors.md
+|   |   |-- 135-JavaScript-Error-Object.md
+|   |   |-- 136-JavaScript-Debugging.md
+|   |   |-- 137-JavaScript-Debugging-Console.md
+|   |   |-- 138-JavaScript-Debugging-Breakpoints.md
+|   |   |-- 139-JavaScript-Debugging-Errors.md
+|   |   |-- 140-JavaScript-Debugging-Async.md
+|   |   `-- 141-JavaScript-Debugging-Reference.md
+|   |-- 15-Code-Quality-and-Reference/
+|   |   |-- 142-JavaScript-Conventions.md
+|   |   |-- 143-JavaScript-Best-Practices.md
+|   |   |-- 144-JavaScript-Common-Mistakes.md
+|   |   |-- 145-JavaScript-Performance.md
+|   |   |-- 146-JavaScript-Alphabetic-Reference.md
+|   |   |-- 147-JavaScript-Statements-Reference.md
+|   |   |-- 148-JavaScript-Reserved-Words.md
+|   |   |-- 149-JavaScript-Operators-Reference.md
+|   |   `-- 150-JavaScript-Operator-Precedence.md
+|   `-- 16-Projects/
+|       |-- 151-JavaScript-Counter-Project.md
+|       |-- 152-JavaScript-Event-Listener-Project.md
+|       |-- 153-JavaScript-Todo-Project.md
+|       |-- 154-JavaScript-Modal-Popup-Project.md
+|       `-- 155-JavaScript-Form-Validation-Project.md
 |-- code.txt
 `-- README.md
-```
+``
 
 ---
 
@@ -294,6 +452,3 @@
 *Explore full-stack architecture, projects, and client work at [ashwanitiwari.com/portfolio](https://ashwanitiwari.com/portfolio)*
 
 </div>
-
-
-
