@@ -118,6 +118,7 @@
 | **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/50-JavaScript-Object-This.md) |
 | **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/51-JavaScript-Display-Objects.md) |
 | **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/52-JavaScript-Object-Constructors.md) || **201** | JavaScript Advanced Objects | [Read Note](./JavaScript/06-Objects/201-JavaScript-Advanced-Objects.md) |
+| **202** | JavaScript Object Definition | [Read Note](./JavaScript/06-Objects/202-JavaScript-Object-Definition.md) |
 
 ### 07-DOM-Manipulation
 
