@@ -121,6 +121,9 @@
 | **164** | JavaScript Events | [Read Note](./JavaScript/07-DOM-Manipulation/164-JavaScript-Events.md) |
 | **165** | JavaScript Mouse Events | [Read Note](./JavaScript/07-DOM-Manipulation/165-JavaScript-Mouse-Events.md) |
 | **166** | JavaScript Keyboard Events | [Read Note](./JavaScript/07-DOM-Manipulation/166-JavaScript-Keyboard-Events.md) |
+| **167** | JavaScript Page Load Events | [Read Note](./JavaScript/07-DOM-Manipulation/167-JavaScript-Page-Load-Events.md) |
+| **168** | JavaScript Event Management | [Read Note](./JavaScript/07-DOM-Manipulation/168-JavaScript-Event-Management.md) |
+| **169** | JavaScript HTML DOM Events | [Read Note](./JavaScript/07-DOM-Manipulation/169-JavaScript-HTML-DOM-Events.md) |
 
 ### 08-Browser-APIs
 
