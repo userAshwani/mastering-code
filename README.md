@@ -117,7 +117,8 @@
 | **49** | JavaScript Object Methods | [Read Note](./JavaScript/06-Objects/49-JavaScript-Object-Methods.md) |
 | **50** | JavaScript `this` in Objects | [Read Note](./JavaScript/06-Objects/50-JavaScript-Object-This.md) |
 | **51** | JavaScript Display Objects | [Read Note](./JavaScript/06-Objects/51-JavaScript-Display-Objects.md) |
-| **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/52-JavaScript-Object-Constructors.md) |
+| **52** | JavaScript Object Constructors | [Read Note](./JavaScript/06-Objects/52-JavaScript-Object-Constructors.md) || **201** | JavaScript Advanced Objects | [Read Note](./JavaScript/06-Objects/201-JavaScript-Advanced-Objects.md) |
+
 ### 07-DOM-Manipulation
 
 | # | Topic | Link |
@@ -292,6 +293,17 @@
 | **153** | JavaScript Todo Project | [Read Note](./JavaScript/16-Projects/153-JavaScript-Todo-Project.md) |
 | **154** | JavaScript Modal Popup Project | [Read Note](./JavaScript/16-Projects/154-JavaScript-Modal-Popup-Project.md) |
 | **155** | JavaScript Form Validation Project | [Read Note](./JavaScript/16-Projects/155-JavaScript-Form-Validation-Project.md) |
+
+### 17-Async
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+
+### 18-JSON-and-Modules
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+
 ---
 
 ## Repository Map
@@ -483,12 +495,14 @@
 |   |   |-- 148-JavaScript-Reserved-Words.md
 |   |   |-- 149-JavaScript-Operators-Reference.md
 |   |   `-- 150-JavaScript-Operator-Precedence.md
-|   `-- 16-Projects/
+|   |-- 16-Projects/
 |       |-- 151-JavaScript-Counter-Project.md
 |       |-- 152-JavaScript-Event-Listener-Project.md
 |       |-- 153-JavaScript-Todo-Project.md
 |       |-- 154-JavaScript-Modal-Popup-Project.md
 |       `-- 155-JavaScript-Form-Validation-Project.md
+|   |-- 17-Async/
+|   `-- 18-JSON-and-Modules/
 |-- code.txt
 `-- README.md
 ``
