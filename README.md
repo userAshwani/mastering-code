@@ -123,6 +123,7 @@
 | **204** | JavaScript Object Iterations | [Read Note](./JavaScript/06-Objects/204-JavaScript-Object-Iterations.md) |
 | **205** | JavaScript Object Accessors | [Read Note](./JavaScript/06-Objects/205-JavaScript-Object-Accessors.md) |
 | **206** | JavaScript Object Management | [Read Note](./JavaScript/06-Objects/206-JavaScript-Object-Management.md) |
+| **207** | JavaScript Object Protection | [Read Note](./JavaScript/06-Objects/207-JavaScript-Object-Protection.md) |
 
 ### 07-DOM-Manipulation
 
