@@ -118,6 +118,7 @@
 | **161** | JavaScript HTML DOM Animation | [Read Note](./JavaScript/07-DOM-Manipulation/161-JavaScript-HTML-DOM-Animation.md) |
 | **162** | JavaScript HTML DOM Document | [Read Note](./JavaScript/07-DOM-Manipulation/162-JavaScript-HTML-DOM-Document.md) |
 | **163** | JavaScript HTML DOM Element Reference | [Read Note](./JavaScript/07-DOM-Manipulation/163-JavaScript-HTML-DOM-Element-Reference.md) |
+| **164** | JavaScript Events | [Read Note](./JavaScript/07-DOM-Manipulation/164-JavaScript-Events.md) |
 
 ### 08-Browser-APIs
 
