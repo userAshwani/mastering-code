@@ -111,7 +111,8 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) |
+| **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) || **156** | JavaScript HTML DOM Methods | [Read Note](./JavaScript/07-DOM-Manipulation/156-JavaScript-HTML-DOM-Methods.md) |
+
 ### 08-Browser-APIs
 
 | # | Topic | Link |
