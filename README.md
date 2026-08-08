@@ -318,6 +318,7 @@
 | **227** | JavaScript Async Event Loop | [Read Note](./JavaScript/17-Async/227-JavaScript-Async-Event-Loop.md) |
 | **228** | JavaScript Async Fetch | [Read Note](./JavaScript/17-Async/228-JavaScript-Async-Fetch.md) |
 | **229** | JavaScript Async Mistakes | [Read Note](./JavaScript/17-Async/229-JavaScript-Async-Mistakes.md) |
+| **230** | JavaScript Async Debugging | [Read Note](./JavaScript/17-Async/230-JavaScript-Async-Debugging.md) |
 
 ### 18-JSON-and-Modules
 
