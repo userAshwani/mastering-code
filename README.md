@@ -147,6 +147,7 @@
 | **182** | JavaScript Fetch API | [Read Note](./JavaScript/08-Browser-APIs/182-JavaScript-Fetch-API.md) |
 | **183** | JavaScript Web API Intro | [Read Note](./JavaScript/08-Browser-APIs/183-JavaScript-Web-API-Intro.md) |
 | **184** | JavaScript Geolocation API | [Read Note](./JavaScript/08-Browser-APIs/184-JavaScript-Geolocation-API.md) |
+| **185** | JavaScript Web History API | [Read Note](./JavaScript/08-Browser-APIs/185-JavaScript-Web-History-API.md) |
 
 ### 09-Dates
 
