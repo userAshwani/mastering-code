@@ -139,6 +139,7 @@
 | **160** | JavaScript Form Validation | [Read Note](./JavaScript/08-Browser-APIs/160-JavaScript-Form-Validation.md) |
 | **175** | JavaScript Window | [Read Note](./JavaScript/08-Browser-APIs/175-JavaScript-Window.md) |
 | **176** | JavaScript Window Screen | [Read Note](./JavaScript/08-Browser-APIs/176-JavaScript-Window-Screen.md) |
+| **177** | JavaScript Window Location | [Read Note](./JavaScript/08-Browser-APIs/177-JavaScript-Window-Location.md) |
 
 ### 09-Dates
 
