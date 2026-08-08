@@ -124,6 +124,7 @@
 | **167** | JavaScript Page Load Events | [Read Note](./JavaScript/07-DOM-Manipulation/167-JavaScript-Page-Load-Events.md) |
 | **168** | JavaScript Event Management | [Read Note](./JavaScript/07-DOM-Manipulation/168-JavaScript-Event-Management.md) |
 | **169** | JavaScript HTML DOM Events | [Read Note](./JavaScript/07-DOM-Manipulation/169-JavaScript-HTML-DOM-Events.md) |
+| **170** | JavaScript HTML DOM Event Listener | [Read Note](./JavaScript/07-DOM-Manipulation/170-JavaScript-HTML-DOM-Event-Listener.md) |
 
 ### 08-Browser-APIs
 
