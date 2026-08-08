@@ -318,6 +318,12 @@
 
 ---
 
+
+### 12-JSON-and-Modules
+
+| # | Topic | Link |
+| :---: | :--- | :--- |
+| **214** | JavaScript JSON Syntax | [Read Note](./JavaScript/12-JSON-and-Modules/214-JavaScript-JSON-Syntax.md) |
 ## Repository Map
 
 ``text
