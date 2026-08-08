@@ -106,6 +106,7 @@
 | **197** | JavaScript Function IIFE | [Read Note](./JavaScript/05-Functions/197-JavaScript-Function-IIFE.md) |
 | **198** | JavaScript Function Closures | [Read Note](./JavaScript/05-Functions/198-JavaScript-Function-Closures.md) |
 | **199** | JavaScript Function Reference | [Read Note](./JavaScript/05-Functions/199-JavaScript-Function-Reference.md) |
+| **200** | JavaScript Function Advanced Quiz | [Read Note](./JavaScript/05-Functions/200-JavaScript-Function-Advanced-Quiz.md) |
 
 ### 06-Objects
 
