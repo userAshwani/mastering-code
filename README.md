@@ -120,7 +120,8 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) |
+| **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) || **160** | JavaScript Form Validation | [Read Note](./JavaScript/08-Browser-APIs/160-JavaScript-Form-Validation.md) |
+
 ### 09-Dates
 
 | # | Topic | Link |
