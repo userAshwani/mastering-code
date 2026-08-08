@@ -320,6 +320,7 @@
 | **229** | JavaScript Async Mistakes | [Read Note](./JavaScript/17-Async/229-JavaScript-Async-Mistakes.md) |
 | **230** | JavaScript Async Debugging | [Read Note](./JavaScript/17-Async/230-JavaScript-Async-Debugging.md) |
 | **231** | JavaScript AbortController | [Read Note](./JavaScript/17-Async/231-JavaScript-AbortController.md) |
+| **232** | JavaScript Async Web Workers | [Read Note](./JavaScript/17-Async/232-JavaScript-Async-Web-Workers.md) |
 
 ### 18-JSON-and-Modules
 
