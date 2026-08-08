@@ -143,6 +143,7 @@
 | **178** | JavaScript Window History | [Read Note](./JavaScript/08-Browser-APIs/178-JavaScript-Window-History.md) |
 | **179** | JavaScript Window Navigator | [Read Note](./JavaScript/08-Browser-APIs/179-JavaScript-Window-Navigator.md) |
 | **180** | JavaScript Popup Alerts | [Read Note](./JavaScript/08-Browser-APIs/180-JavaScript-Popup-Alerts.md) |
+| **181** | JavaScript Cookies | [Read Note](./JavaScript/08-Browser-APIs/181-JavaScript-Cookies.md) |
 
 ### 09-Dates
 
