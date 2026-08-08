@@ -148,6 +148,7 @@
 | **183** | JavaScript Web API Intro | [Read Note](./JavaScript/08-Browser-APIs/183-JavaScript-Web-API-Intro.md) |
 | **184** | JavaScript Geolocation API | [Read Note](./JavaScript/08-Browser-APIs/184-JavaScript-Geolocation-API.md) |
 | **185** | JavaScript Web History API | [Read Note](./JavaScript/08-Browser-APIs/185-JavaScript-Web-History-API.md) |
+| **186** | JavaScript Pointer Events API | [Read Note](./JavaScript/08-Browser-APIs/186-JavaScript-Pointer-Events-API.md) |
 
 ### 09-Dates
 
