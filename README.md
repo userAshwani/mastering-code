@@ -120,6 +120,7 @@
 | **163** | JavaScript HTML DOM Element Reference | [Read Note](./JavaScript/07-DOM-Manipulation/163-JavaScript-HTML-DOM-Element-Reference.md) |
 | **164** | JavaScript Events | [Read Note](./JavaScript/07-DOM-Manipulation/164-JavaScript-Events.md) |
 | **165** | JavaScript Mouse Events | [Read Note](./JavaScript/07-DOM-Manipulation/165-JavaScript-Mouse-Events.md) |
+| **166** | JavaScript Keyboard Events | [Read Note](./JavaScript/07-DOM-Manipulation/166-JavaScript-Keyboard-Events.md) |
 
 ### 08-Browser-APIs
 
