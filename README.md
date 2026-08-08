@@ -315,6 +315,7 @@
 | **224** | JavaScript Async Promises | [Read Note](./JavaScript/17-Async/224-JavaScript-Async-Promises.md) |
 | **225** | JavaScript Async Await Deep Dive | [Read Note](./JavaScript/17-Async/225-JavaScript-Async-Await-Deep.md) |
 | **226** | JavaScript Async Parallel | [Read Note](./JavaScript/17-Async/226-JavaScript-Async-Parallel.md) |
+| **227** | JavaScript Async Event Loop | [Read Note](./JavaScript/17-Async/227-JavaScript-Async-Event-Loop.md) |
 
 ### 18-JSON-and-Modules
 
