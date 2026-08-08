@@ -116,6 +116,7 @@
 | **158** | JavaScript HTML DOM Changing HTML | [Read Note](./JavaScript/07-DOM-Manipulation/158-JavaScript-HTML-DOM-Changing-HTML.md) |
 | **159** | JavaScript HTML DOM CSS | [Read Note](./JavaScript/07-DOM-Manipulation/159-JavaScript-HTML-DOM-CSS.md) |
 | **161** | JavaScript HTML DOM Animation | [Read Note](./JavaScript/07-DOM-Manipulation/161-JavaScript-HTML-DOM-Animation.md) |
+| **162** | JavaScript HTML DOM Document | [Read Note](./JavaScript/07-DOM-Manipulation/162-JavaScript-HTML-DOM-Document.md) |
 
 ### 08-Browser-APIs
 
