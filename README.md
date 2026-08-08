@@ -105,6 +105,7 @@
 | **196** | JavaScript Function Bind | [Read Note](./JavaScript/05-Functions/196-JavaScript-Function-Bind.md) |
 | **197** | JavaScript Function IIFE | [Read Note](./JavaScript/05-Functions/197-JavaScript-Function-IIFE.md) |
 | **198** | JavaScript Function Closures | [Read Note](./JavaScript/05-Functions/198-JavaScript-Function-Closures.md) |
+| **199** | JavaScript Function Reference | [Read Note](./JavaScript/05-Functions/199-JavaScript-Function-Reference.md) |
 
 ### 06-Objects
 
