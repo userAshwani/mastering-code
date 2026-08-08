@@ -125,6 +125,7 @@
 | **206** | JavaScript Object Management | [Read Note](./JavaScript/06-Objects/206-JavaScript-Object-Management.md) |
 | **207** | JavaScript Object Protection | [Read Note](./JavaScript/06-Objects/207-JavaScript-Object-Protection.md) |
 | **208** | JavaScript Object Prototypes | [Read Note](./JavaScript/06-Objects/208-JavaScript-Object-Prototypes.md) |
+| **209** | JavaScript Object Reference | [Read Note](./JavaScript/06-Objects/209-JavaScript-Object-Reference.md) |
 
 ### 07-DOM-Manipulation
 
