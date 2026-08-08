@@ -140,6 +140,7 @@
 | **175** | JavaScript Window | [Read Note](./JavaScript/08-Browser-APIs/175-JavaScript-Window.md) |
 | **176** | JavaScript Window Screen | [Read Note](./JavaScript/08-Browser-APIs/176-JavaScript-Window-Screen.md) |
 | **177** | JavaScript Window Location | [Read Note](./JavaScript/08-Browser-APIs/177-JavaScript-Window-Location.md) |
+| **178** | JavaScript Window History | [Read Note](./JavaScript/08-Browser-APIs/178-JavaScript-Window-History.md) |
 
 ### 09-Dates
 
