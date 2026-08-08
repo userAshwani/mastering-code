@@ -321,6 +321,7 @@
 | **230** | JavaScript Async Debugging | [Read Note](./JavaScript/17-Async/230-JavaScript-Async-Debugging.md) |
 | **231** | JavaScript AbortController | [Read Note](./JavaScript/17-Async/231-JavaScript-AbortController.md) |
 | **232** | JavaScript Async Web Workers | [Read Note](./JavaScript/17-Async/232-JavaScript-Async-Web-Workers.md) |
+| **233** | JavaScript Promise Reference | [Read Note](./JavaScript/17-Async/233-JavaScript-Promise-Reference.md) |
 
 ### 18-JSON-and-Modules
 
