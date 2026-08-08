@@ -135,7 +135,9 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) || **160** | JavaScript Form Validation | [Read Note](./JavaScript/08-Browser-APIs/160-JavaScript-Form-Validation.md) |
+| **54** | JavaScript Timers | [Read Note](./JavaScript/08-Browser-APIs/54-JavaScript-Timers.md) |
+| **160** | JavaScript Form Validation | [Read Note](./JavaScript/08-Browser-APIs/160-JavaScript-Form-Validation.md) |
+| **175** | JavaScript Window | [Read Note](./JavaScript/08-Browser-APIs/175-JavaScript-Window.md) |
 
 ### 09-Dates
 
