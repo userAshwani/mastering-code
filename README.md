@@ -96,7 +96,8 @@
 | **43** | JavaScript Function Arguments | [Read Note](./JavaScript/05-Functions/43-JavaScript-Function-Arguments.md) |
 | **44** | JavaScript Function Expressions | [Read Note](./JavaScript/05-Functions/44-JavaScript-Function-Expressions.md) |
 | **45** | JavaScript Arrow Functions | [Read Note](./JavaScript/05-Functions/45-JavaScript-Arrow-Functions.md) |
-| **46** | JavaScript Function Quiz | [Read Note](./JavaScript/05-Functions/46-JavaScript-Function-Quiz.md) |
+| **46** | JavaScript Function Quiz | [Read Note](./JavaScript/05-Functions/46-JavaScript-Function-Quiz.md) || **190** | JavaScript Function Advanced | [Read Note](./JavaScript/05-Functions/190-JavaScript-Function-Advanced.md) |
+
 ### 06-Objects
 
 | # | Topic | Link |
