@@ -128,6 +128,7 @@
 | **209** | JavaScript Object Reference | [Read Note](./JavaScript/06-Objects/209-JavaScript-Object-Reference.md) |
 | **210** | JavaScript Classes | [Read Note](./JavaScript/06-Objects/210-JavaScript-Classes.md) |
 | **211** | JavaScript Class Inheritance | [Read Note](./JavaScript/06-Objects/211-JavaScript-Class-Inheritance.md) |
+| **212** | JavaScript Class Static | [Read Note](./JavaScript/06-Objects/212-JavaScript-Class-Static.md) |
 
 ### 07-DOM-Manipulation
 
