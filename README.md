@@ -100,6 +100,7 @@
 | **191** | JavaScript Function Definitions | [Read Note](./JavaScript/05-Functions/191-JavaScript-Function-Definitions.md) |
 | **192** | JavaScript Function Callbacks | [Read Note](./JavaScript/05-Functions/192-JavaScript-Function-Callbacks.md) |
 | **193** | JavaScript Function This | [Read Note](./JavaScript/05-Functions/193-JavaScript-Function-This.md) |
+| **194** | JavaScript Function Call | [Read Note](./JavaScript/05-Functions/194-JavaScript-Function-Call.md) |
 
 ### 06-Objects
 
