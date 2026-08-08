@@ -1,4 +1,4 @@
-﻿# Mastering Programming & Software Engineering
+# Mastering Programming & Software Engineering
 
 <div align="center">
 
@@ -111,7 +111,8 @@
 
 | # | Topic | Link |
 | :---: | :--- | :--- |
-| **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) || **156** | JavaScript HTML DOM Methods | [Read Note](./JavaScript/07-DOM-Manipulation/156-JavaScript-HTML-DOM-Methods.md) |
+| **53** | JavaScript HTML DOM | [Read Note](./JavaScript/07-DOM-Manipulation/53-DOM-Element-Interaction.md) |
+| **156** | JavaScript HTML DOM Methods | [Read Note](./JavaScript/07-DOM-Manipulation/156-JavaScript-HTML-DOM-Methods.md) |
 | **157** | JavaScript HTML DOM Elements | [Read Note](./JavaScript/07-DOM-Manipulation/157-JavaScript-HTML-DOM-Elements.md) |
 | **158** | JavaScript HTML DOM Changing HTML | [Read Note](./JavaScript/07-DOM-Manipulation/158-JavaScript-HTML-DOM-Changing-HTML.md) |
 | **159** | JavaScript HTML DOM CSS | [Read Note](./JavaScript/07-DOM-Manipulation/159-JavaScript-HTML-DOM-CSS.md) |
@@ -335,9 +336,28 @@
 |   |   |-- 51-JavaScript-Display-Objects.md
 |   |   `-- 52-JavaScript-Object-Constructors.md
 |   |-- 07-DOM-Manipulation/
-|   |   `-- 53-DOM-Element-Interaction.md
+|   |   |-- 53-DOM-Element-Interaction.md
+|   |   |-- 156-JavaScript-HTML-DOM-Methods.md
+|   |   |-- 157-JavaScript-HTML-DOM-Elements.md
+|   |   |-- 158-JavaScript-HTML-DOM-Changing-HTML.md
+|   |   |-- 159-JavaScript-HTML-DOM-CSS.md
+|   |   |-- 161-JavaScript-HTML-DOM-Animation.md
+|   |   |-- 162-JavaScript-HTML-DOM-Document.md
+|   |   |-- 163-JavaScript-HTML-DOM-Element-Reference.md
+|   |   |-- 164-JavaScript-Events.md
+|   |   |-- 165-JavaScript-Mouse-Events.md
+|   |   |-- 166-JavaScript-Keyboard-Events.md
+|   |   |-- 167-JavaScript-Page-Load-Events.md
+|   |   |-- 168-JavaScript-Event-Management.md
+|   |   |-- 169-JavaScript-HTML-DOM-Events.md
+|   |   |-- 170-JavaScript-HTML-DOM-Event-Listener.md
+|   |   |-- 171-JavaScript-HTML-First.md
+|   |   |-- 172-JavaScript-HTML-First-Progressive-Enhancement.md
+|   |   |-- 173-JavaScript-HTML-First-Features.md
+|   |   `-- 174-JavaScript-HTML-First-CSS.md
 |   |-- 08-Browser-APIs/
-|   |   `-- 54-JavaScript-Timers.md
+|   |   |-- 54-JavaScript-Timers.md
+|   |   `-- 160-JavaScript-Form-Validation.md
 |   |-- 09-Dates/
 |   |   |-- 60-JavaScript-Dates.md
 |   |   |-- 61-JavaScript-Date-Formats.md
