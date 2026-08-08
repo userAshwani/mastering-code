@@ -128,6 +128,7 @@
 | **171** | JavaScript HTML-First | [Read Note](./JavaScript/07-DOM-Manipulation/171-JavaScript-HTML-First.md) |
 | **172** | JavaScript HTML-First Progressive Enhancement | [Read Note](./JavaScript/07-DOM-Manipulation/172-JavaScript-HTML-First-Progressive-Enhancement.md) |
 | **173** | JavaScript HTML-First Features | [Read Note](./JavaScript/07-DOM-Manipulation/173-JavaScript-HTML-First-Features.md) |
+| **174** | JavaScript HTML-First CSS | [Read Note](./JavaScript/07-DOM-Manipulation/174-JavaScript-HTML-First-CSS.md) |
 
 ### 08-Browser-APIs
 
