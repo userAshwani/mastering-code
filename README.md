@@ -126,6 +126,7 @@
 | **169** | JavaScript HTML DOM Events | [Read Note](./JavaScript/07-DOM-Manipulation/169-JavaScript-HTML-DOM-Events.md) |
 | **170** | JavaScript HTML DOM Event Listener | [Read Note](./JavaScript/07-DOM-Manipulation/170-JavaScript-HTML-DOM-Event-Listener.md) |
 | **171** | JavaScript HTML-First | [Read Note](./JavaScript/07-DOM-Manipulation/171-JavaScript-HTML-First.md) |
+| **172** | JavaScript HTML-First Progressive Enhancement | [Read Note](./JavaScript/07-DOM-Manipulation/172-JavaScript-HTML-First-Progressive-Enhancement.md) |
 
 ### 08-Browser-APIs
 
