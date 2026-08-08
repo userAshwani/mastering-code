@@ -121,6 +121,7 @@
 | **202** | JavaScript Object Definition | [Read Note](./JavaScript/06-Objects/202-JavaScript-Object-Definition.md) |
 | **203** | JavaScript This Keyword | [Read Note](./JavaScript/06-Objects/203-JavaScript-This-Keyword.md) |
 | **204** | JavaScript Object Iterations | [Read Note](./JavaScript/06-Objects/204-JavaScript-Object-Iterations.md) |
+| **205** | JavaScript Object Accessors | [Read Note](./JavaScript/06-Objects/205-JavaScript-Object-Accessors.md) |
 
 ### 07-DOM-Manipulation
 
