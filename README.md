@@ -313,6 +313,7 @@
 | **222** | JavaScript Async and Await | [Read Note](./JavaScript/17-Async/222-JavaScript-Async-Await.md) |
 | **223** | JavaScript Async Callbacks | [Read Note](./JavaScript/17-Async/223-JavaScript-Async-Callbacks.md) |
 | **224** | JavaScript Async Promises | [Read Note](./JavaScript/17-Async/224-JavaScript-Async-Promises.md) |
+| **225** | JavaScript Async Await Deep Dive | [Read Note](./JavaScript/17-Async/225-JavaScript-Async-Await-Deep.md) |
 
 ### 18-JSON-and-Modules
 
