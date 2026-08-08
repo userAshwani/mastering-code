@@ -150,6 +150,7 @@
 | **185** | JavaScript Web History API | [Read Note](./JavaScript/08-Browser-APIs/185-JavaScript-Web-History-API.md) |
 | **186** | JavaScript Pointer Events API | [Read Note](./JavaScript/08-Browser-APIs/186-JavaScript-Pointer-Events-API.md) |
 | **187** | JavaScript Web Storage API | [Read Note](./JavaScript/08-Browser-APIs/187-JavaScript-Web-Storage-API.md) |
+| **188** | JavaScript Validation API | [Read Note](./JavaScript/08-Browser-APIs/188-JavaScript-Validation-API.md) |
 
 ### 09-Dates
 
